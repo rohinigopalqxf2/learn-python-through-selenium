@@ -5,7 +5,6 @@ This class models the form on the weather shopper application main page
 from .Base_Page import Base_Page
 import conf.locators_conf as locators
 from utils.Wrapit import Wrapit
-import sys
 
 
 class Temperature_Object:
@@ -15,6 +14,8 @@ class Temperature_Object:
     temp_field = locators.temp_field
     click_buy_moisturizers = locators.click_moisturizers
     click_buy_sunscreens = locators.click_sunscreens
+    redirect_title_mositurizers = 'moisturizers'
+    redirect_title_sunscreens = 'sunscreens'
   
 
     def get_temperature(self):
@@ -50,4 +51,41 @@ class Temperature_Object:
 
         return result_flag
 
-    
+    def check_redirect_moisturizers(self):
+        "Check if we have been redirected to the redirect page"
+        result_flag = False
+        print (self.driver.title)
+        if self.redirect_title_mositurizers in self.driver.title:
+            result_flag = True
+            self.switch_page("moisturizers")
+        
+        return result_flag    
+
+    def check_redirect_sunscreens(self):
+        "Check if we have been redirected to the redirect page"
+        result_flag = False
+        #self.driver.title = "The best sunscreens in the world!"
+        #remove after Arun changes the title for sunscreens
+        if self.redirect_title_mositurizers in self.driver.title:
+            result_flag = True
+            self.switch_page("sunscreens")
+        
+        return result_flag 
+
+
+    def check_temperature(self):
+        "check the temperature"
+        temp_element = self.get_temperature()
+        if int(temp_element) <=19:
+            result_flag = self.click_moisturizers()
+            result_flag &= self.check_redirect_moisturizers()
+        elif int(temp_element) >=34:
+            result_flag = self.click_sunscreens()
+            print ("next")
+            result_flag &= self.check_redirect_sunscreens()
+            print (result_flag)
+
+        return result_flag
+
+
+

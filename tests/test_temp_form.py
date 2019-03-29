@@ -26,20 +26,25 @@ def test_temp_form(base_url,browser,browser_version,os_version,os_name,remote_fl
         start_time = int(time.time())	#Set start_time with current time
         test_obj.register_driver(remote_flag,os_name,os_version,browser,browser_version,remote_project_name,remote_build_name)
         
-        
-        #5. get the current temperature
-        temp_element = test_obj.get_temperature() 
-        if int(temp_element) <= 19: 
-            print (temp_element)
-            print ("this is less than 19")           
-            result_flag = test_obj.click_moisturizers()
-        elif int(temp_element) >= 34:            
-            result_flag = test_obj.click_sunscreens()
-        
+         #5. get the current temperature
+        result_flag = test_obj.check_temperature()      
         test_obj.log_result(result_flag,
                             positive="Successfully read the temperature",
                             negative="Failed to read the temperature")
         test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+        #Update TestRail
+        #case_id = testrail_file.test_example_form_name
+        #test_obj.report_to_testrail(case_id,test_run_id,result_flag)
+        #test_obj.add_tesults_case("Set Name", "Sets the name in the form", "test_example_form", result_flag, "Failed to set name: %s \nOn url: %s\n"%(name,test_obj.get_current_url()), [test_obj.log_obj.log_file_dir + os.sep + test_obj.log_obj.log_file_name])
+        
+        if result_flag is True:
+            result_flag = test_obj.check_heading()
+        test_obj.log_result(result_flag,
+                            positive="Heading on the redirect page checks out!\n",
+                            negative="Fail: Heading on the redirect page is incorrect!")
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+        
+        
         
         
         #13. Print out the results

@@ -16,3 +16,6 @@
 temp_field = "xpath,//span[@id ='temperature']"
 click_moisturizers = "xpath,//button[text()='Buy moisturizers']"
 click_sunscreens= "xpath,//button[text()='Buy sunscreens']"
+
+heading_moisturizer = "xpath,//h2[contains(text(),'Moisturizers')]"
+heading_sunscreen = "xpath,//h2[contains(text(),'Sunscreens')]"
