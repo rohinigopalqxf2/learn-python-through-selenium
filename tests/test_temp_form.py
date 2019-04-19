@@ -44,6 +44,12 @@ def test_temp_form(base_url,browser,browser_version,os_version,os_name,remote_fl
                             negative="Fail: Heading on the redirect page is incorrect!")
         test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
         
+        result_flag = test_obj.select_product_type()  
+        test_obj.log_result(result_flag,
+                            positive="Selected products\n",
+                            negative="Not able to select the products")
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))   
+
         
         
         

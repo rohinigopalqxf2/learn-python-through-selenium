@@ -19,3 +19,8 @@ click_sunscreens= "xpath,//button[text()='Buy sunscreens']"
 
 heading_moisturizer = "xpath,//h2[contains(text(),'Moisturizers')]"
 heading_sunscreen = "xpath,//h2[contains(text(),'Sunscreens')]"
+
+page_title = "xpath,//h2"
+
+moisturizers = "xpath,//div[contains(@class,'text-center col-4')]"
+sunscreens = "xpath,//div[contains(@class,'text-center col-4')]"

@@ -4,11 +4,12 @@ URL: sunscreen
 The page consists of product info, price and adding to cart
 """
 from .Base_Page import Base_Page
+from .common_object import Common_Object
 import conf.locators_conf as locators
 from utils.Wrapit import Wrapit
 
 
-class Temp_Sunscreen_Redirect_Page(Base_Page):
+class Temp_Sunscreen_Redirect_Page(Base_Page,Common_Object):
     "Page Object for the redirect page"
 
     #locators

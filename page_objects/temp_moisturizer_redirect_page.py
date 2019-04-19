@@ -5,10 +5,12 @@ The page consists of product info, price and adding to cart
 """
 from .Base_Page import Base_Page
 import conf.locators_conf as locators
+from .common_object import Common_Object
+from .moisturizer_object import Moisturizer_Object
 from utils.Wrapit import Wrapit
 
 
-class Temp_Moisturizer_Redirect_Page(Base_Page):
+class Temp_Moisturizer_Redirect_Page(Base_Page,Common_Object,Moisturizer_Object):
     "Page Object for the redirect page"
 
     #locators
