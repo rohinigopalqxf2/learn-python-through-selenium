@@ -13,6 +13,7 @@ Pages implemented so far:
 from page_objects.temp_main_page import Temp_Main_Page
 from page_objects.temp_moisturizer_redirect_page import Temp_Moisturizer_Redirect_Page
 from page_objects.temp_sunscreen_redirect_page import Temp_Sunscreen_Redirect_Page
+from page_objects.cart_redirect_page import Cart_Redirect_Page
 
 
 class PageFactory():
@@ -27,6 +28,8 @@ class PageFactory():
             test_obj = Temp_Moisturizer_Redirect_Page(base_url=base_url,trailing_slash_flag=trailing_slash_flag)
         elif page_name == "sunscreens":
             test_obj = Temp_Sunscreen_Redirect_Page(base_url=base_url,trailing_slash_flag=trailing_slash_flag)
+        elif page_name == "cart":
+            test_obj = Cart_Redirect_Page(base_url=base_url,trailing_slash_flag=trailing_slash_flag)    
             
         
         return test_obj

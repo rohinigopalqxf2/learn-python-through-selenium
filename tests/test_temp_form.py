@@ -46,13 +46,18 @@ def test_temp_form(base_url,browser,browser_version,os_version,os_name,remote_fl
         
         result_flag = test_obj.select_product_type()  
         test_obj.log_result(result_flag,
-                            positive="Selected products\n",
+                            positive="Selected the products\n",
                             negative="Not able to select the products")
-        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))   
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))        
+          
+        result_flag = test_obj.check_cart_heading()
+        test_obj.log_result(result_flag,
+                            positive="Heading on the cart page checks out\n",
+                            negative="Fail: Heading on the cart page is incorrect!")
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time))) 
+        
 
-        
-        
-        
+
         #13. Print out the results
         test_obj.write_test_summary()
 

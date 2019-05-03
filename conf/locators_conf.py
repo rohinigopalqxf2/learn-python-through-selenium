@@ -24,3 +24,21 @@ page_title = "xpath,//h2"
 
 moisturizers = "xpath,//div[contains(@class,'text-center col-4')]"
 sunscreens = "xpath,//div[contains(@class,'text-center col-4')]"
+
+moisturizers_names = "xpath,//p[contains(@class,'font-weight-bold top-space-10')]"
+sunscreens_names ="xpath,//p[contains(@class,'font-weight-bold top-space-10')]"
+
+moisturizers_price = "xpath,//p[contains(text(),'Price')]"
+sunscreens_price = "xpath,//p[contains(text(),'Price')]"
+
+click_cart = "xpath,//button[contains(@class,'nav-link')]"
+checkout_heading = "xpath,//h2"
+
+product_price_element = "xpath,//p[contains(text(), '%s')]/following-sibling::p"
+product_add_element ="xpath,//p[contains(text(), '%s')]/following-sibling::p[contains(text(),'%s')]/following-sibling::button"
+      
+pay_with_card = "xpath,//button['Pay with Card']"
+
+
+
+
