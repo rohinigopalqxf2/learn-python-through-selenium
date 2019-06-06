@@ -39,6 +39,22 @@ product_add_element ="xpath,//p[contains(text(), '%s')]/following-sibling::p[con
       
 pay_with_card = "xpath,//button['Pay with Card']"
 
+iframe_name = "xpath,//iframe[@name='stripe_checkout_app']"
+email = "xpath,//input[@type='email']"       
+
+card_number  =  "xpath,//input[@type='tel']"
+
+card_expiry = "xpath,//input[@placeholder='MM / YY']"
+
+cvv = "xpath,//input[@placeholder='CVC']"
+
+zip_code = "xpath, //input[@placeholder='ZIP Code']"
+
+pay_button = "xpath, //button[@type ='submit']"
+
+
+
+
 
 
 

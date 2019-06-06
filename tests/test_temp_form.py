@@ -9,6 +9,7 @@ import os,sys,time
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from page_objects.PageFactory import PageFactory
 from utils.Option_Parser import Option_Parser
+import conf.stripe_form_conf as conf
 
 
 def test_temp_form(base_url,browser,browser_version,os_version,os_name,remote_flag,remote_project_name,remote_build_name):
@@ -56,8 +57,56 @@ def test_temp_form(base_url,browser,browser_version,os_version,os_name,remote_fl
                             negative="Fail: Heading on the cart page is incorrect!")
         test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time))) 
         
+        result_flag = test_obj.make_payment_with_card()
+        test_obj.log_result(result_flag,
+                            positive="Payment details entered successfully\n",
+                            negative="Failed to enter the payment details")
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time))) 
+
+        email = conf.email
+        card_number = conf.card_number
+        card_expiry = conf.card_expiry
+        cvv = conf.cvv
+        zip_code = conf.zip_code
+
+        #6. Set Email in form
+        result_flag = test_obj.set_email(email) 
+        test_obj.log_result(result_flag,
+                            positive="Email was successfully set to: %s\n"%email,
+                            negative="Failed to set Email: %s \nOn url: %s\n"%(email,test_obj.get_current_url()))
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+
+        #6. Set Email in form
+        result_flag = test_obj.set_card_number(card_number) 
+        test_obj.log_result(result_flag,
+                            positive="Card number was successfully set to: %s\n"%card_number,
+                            negative="Failed to set card number: %s \nOn url: %s\n"%(card_number,test_obj.get_current_url()))
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+
+        #6. Set Email in form
+        result_flag = test_obj.set_card_expiry_date(card_expiry) 
+        test_obj.log_result(result_flag,
+                            positive="Card expiry date was successfully set to: %s\n"%card_expiry,
+                            negative="Failed to set card expiry date: %s \nOn url: %s\n"%(card_expiry,test_obj.get_current_url()))
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
 
 
+        #6. Set Email in form
+        result_flag = test_obj.set_cvv(cvv) 
+        test_obj.log_result(result_flag,
+                            positive="Cvv was successfully set to: %s\n"%cvv,
+                            negative="Failed to set cvv: %s \nOn url: %s\n"%(cvv,test_obj.get_current_url()))
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+
+
+        #6. Set Email in form
+        result_flag = test_obj.set_zip_code(zip_code) 
+        test_obj.log_result(result_flag,
+                            positive="zip_code was successfully set to: %s\n"%zip_code,
+                            negative="Failed to set zip_code: %s \nOn url: %s\n"%(zip_code,test_obj.get_current_url()))
+        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+
+        
         #13. Print out the results
         test_obj.write_test_summary()
 

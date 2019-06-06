@@ -12,8 +12,7 @@ class Sunscreen_Object:
     "Page object for the Sunscreen"  
  
     product_price_element = locators.product_price_element
-    product_add_element = locators.product_add_element
-      
+    product_add_element = locators.product_add_element     
 
     cart_button = locators.click_cart  
     checkout_heading = locators.checkout_heading  
