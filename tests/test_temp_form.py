@@ -106,7 +106,13 @@ def test_temp_form(base_url,browser,browser_version,os_version,os_name,remote_fl
                             negative="Failed to set zip_code: %s \nOn url: %s\n"%(zip_code,test_obj.get_current_url()))
         test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
 
-        
+
+         #6. Set Email in form
+        result_flag = test_obj.click_pay_button(email,card_number,card_expiry,cvv,zip_code)
+        test_obj.log_result(result_flag,
+                            positive="Successfully submitted the form\n",
+                            negative="Failed to submit the form \nOn url: %s"%test_obj.get_current_url())
+
         #13. Print out the results
         test_obj.write_test_summary()
 
