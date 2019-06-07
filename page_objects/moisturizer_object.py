@@ -36,9 +36,9 @@ class Moisturizer_Object:
                     price_product = int(product_price[0])                
             result_flag = self.click_element(self.product_add_element%(product,price_product))
             self.conditional_write(result_flag,
-                        positive='Successfully added moisturizers',
-                        negative='Failed to add moisturizers',
-                        level='debug')        
+                                positive='Successfully added moisturizers',
+                                negative='Failed to add moisturizers',
+                                level='debug')        
 
         return result_flag
 
@@ -56,8 +56,7 @@ class Moisturizer_Object:
 
     def check_redirect_cart(self):
         "Check if we have been redirected to the redirect page"
-        result_flag = False
-        print ("redirct cart")
+        result_flag = False        
         #self.driver.title = "The best sunscreens in the world!"
         #remove after Arun changes the title for sunscreens      
             

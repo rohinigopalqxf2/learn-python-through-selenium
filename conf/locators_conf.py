@@ -46,7 +46,7 @@ card_number  =  "xpath,//input[@type='tel']"
 
 card_expiry = "xpath,//input[@placeholder='MM / YY']"
 
-cvv = "xpath,//input[@placeholder='CVC']"
+cvc = "xpath,//input[@placeholder='CVC']"
 
 zip_code = "xpath, //input[@placeholder='ZIP Code']"
 

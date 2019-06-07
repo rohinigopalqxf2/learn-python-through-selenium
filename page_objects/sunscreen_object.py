@@ -35,9 +35,9 @@ class Sunscreen_Object:
                     price_product = int(product_price[0])                                    
             result_flag = self.click_element(self.product_add_element%(product,price_product))
             self.conditional_write(result_flag,
-                        positive='Successfully added sunscreens',
-                        negative='Failed to add sunscreens',
-                        level='debug')        
+                                positive='Successfully added sunscreens',
+                                negative='Failed to add sunscreens',
+                                level='debug')        
 
         return result_flag
 

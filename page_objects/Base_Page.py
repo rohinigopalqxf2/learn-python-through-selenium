@@ -373,8 +373,7 @@ class Base_Page(Borg,unittest.TestCase):
         "Split the locator type and locator"
         result = ()
         try:
-            result = tuple(locator.split(',',1))
-            print (result)
+            result = tuple(locator.split(',',1))            
         except Exception as e:
             self.write("Error while parsing locator")
             self.exceptions.append("Unable to split the locator-'%s' in the conf/locators.conf file"%(locator[0],locator[1]))

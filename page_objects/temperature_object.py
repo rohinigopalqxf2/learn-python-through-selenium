@@ -21,17 +21,13 @@ class Temperature_Object:
     def get_temperature(self):
         "get the temperature value from the page"
         temp_element = self.get_element(self.temp_field).text
-        temp_element = temp_element[:-2]
-        #temp_element.encode(sys.stdout.encoding, 'ignore').decode(sys.stdout.encoding)
-        print(temp_element)
-        #temp_element = temp_element[:2]
+        temp_element = temp_element[:-2]     
 
         return temp_element
 
 
     def click_moisturizers(self):
-        "click the Buy moisturizers button"
-        print ("enter")
+        "click the Buy moisturizers button"      
         result_flag = self.click_element(self.click_buy_moisturizers)
         self.conditional_write(result_flag,
             positive='Clicked on the "Buy moisturizers" button',
@@ -53,8 +49,7 @@ class Temperature_Object:
 
     def check_redirect_moisturizers(self):
         "Check if we have been redirected to the redirect page"
-        result_flag = False
-        print (self.driver.title)
+        result_flag = False       
         if self.redirect_title_mositurizers in self.driver.title:
             result_flag = True
             self.switch_page("moisturizers")
@@ -80,11 +75,9 @@ class Temperature_Object:
             result_flag = self.click_moisturizers()
             result_flag &= self.check_redirect_moisturizers()
         elif int(temp_element) >=34:
-            result_flag = self.click_sunscreens()
-            print ("next")
+            result_flag = self.click_sunscreens()            
             result_flag &= self.check_redirect_sunscreens()
-            print (result_flag)
-
+           
         return result_flag
 
 
