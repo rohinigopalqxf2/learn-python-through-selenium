@@ -6,7 +6,7 @@ from .temperature_object import Temperature_Object
 from utils.Wrapit import Wrapit
 
 
-class Temp_Main_Page(Base_Page,Temperature_Object):
+class Temperature_Main_Page(Base_Page,Temperature_Object):
     "Page Object for the temperature main page"
     
     def start(self):    

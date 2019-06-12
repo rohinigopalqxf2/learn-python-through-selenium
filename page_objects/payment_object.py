@@ -1,47 +1,28 @@
 from .Base_Page import Base_Page
-from .moisturizer_object import Moisturizer_Object
-from .sunscreen_object import Sunscreen_Object
+from .product_object import Product_Object
 import conf.locators_conf as locators
 
-page_title = locators.page_title 
-cart_button = locators.click_cart 
-
-
-class Common_Object(Moisturizer_Object,Sunscreen_Object):
-    "Class for all the common objects"
+class Payment_Object(Product_Object):
+    "Class for all the Payment objects"
 
     #locators   
+    page_title = locators.page_title    
     pay_with_card = locators.pay_with_card  
-    iframe_name = '//iframe[@name="stripe_checkout_app"]'    
+    iframe_name = locators.iframe_name    
     email_field = locators.email 
     card_number_field = locators.card_number
     card_expiry_date_field = locators.card_expiry
     cvc_field = locators.cvc
     zip_code_field = locators.zip_code
-    pay_button = locators.pay_button
-    redirect_title_cart = 'cart'
+    pay_button = locators.pay_button        
 
-
-    def select_product_type(self):
-        "select two products"
-        title = self.get_title() 
-        title = title.decode('utf-8')       
-        result_flag = None
-        if title in "Moisturizers":
-            result_flag = self.process_moisturizers()            
-        elif title in 'Sunscreens':
-            result_flag = self.process_sunscreens()               
-
-        return result_flag
-
-    
+        
     def make_payment_with_card(self):
         "Make the payment for the items"
         result_flag = self.click_pay_with_card()
         result_flag &= self.switch_to_stripe_payment_gateway(self.iframe_name)
 
-        return result_flag
-        
+        return result_flag        
 
     def switch_to_stripe_payment_gateway(self,iframe_name):
         "Switch to payment gateway"        
@@ -93,7 +74,6 @@ class Common_Object(Moisturizer_Object,Sunscreen_Object):
 
         return result_flag 
 
-
     def set_zip_code(self,zip_code):
         "Set the zip code on the form"
         result_flag = self.set_text(self.zip_code_field,zip_code)
@@ -102,8 +82,7 @@ class Common_Object(Moisturizer_Object,Sunscreen_Object):
             negative='Failed to set the zip_code in the form',
             level='debug')
 
-        return result_flag    
-
+        return result_flag
 
     def click_pay_with_card(self):  
         "Click on the pay with card button"      
@@ -113,8 +92,7 @@ class Common_Object(Moisturizer_Object,Sunscreen_Object):
             negative='Failed to click on "Pay with card" button',
             level='debug')
 
-        return result_flag  
-
+        return result_flag
 
     def click_pay_button(self):      
         "Click on the pay(payment gateway) button"  
@@ -128,14 +106,13 @@ class Common_Object(Moisturizer_Object,Sunscreen_Object):
 
     def submit_payment_details(self,email,card_number,card_expiry,cvv,zip_code):
         "Submit the payment details"       
-        result_flag = self.click_pay_button()
-        #result_flag &= self.check_redirect()
+        result_flag = self.click_pay_button()        
 
         return result_flag 
 
     def get_title(self):
         "get title"
-        title = self.get_text(page_title)
+        title = self.get_text(self.page_title)
 
         return title 
 

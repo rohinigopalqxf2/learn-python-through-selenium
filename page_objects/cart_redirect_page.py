@@ -4,14 +4,13 @@ URL: cart
 The page consists of Item and price details
 """
 from .Base_Page import Base_Page
-from .common_object import Common_Object
-from .moisturizer_object import Moisturizer_Object
-from .sunscreen_object import Sunscreen_Object
+from .payment_object import Payment_Object
+from .product_object import Product_Object
 import conf.locators_conf as locators
 from utils.Wrapit import Wrapit
 
 
-class Cart_Redirect_Page(Base_Page,Common_Object,Moisturizer_Object,Sunscreen_Object):
+class Cart_Redirect_Page(Base_Page,Payment_Object,Product_Object):
     "Page Object for the redirect page"
 
     #locators

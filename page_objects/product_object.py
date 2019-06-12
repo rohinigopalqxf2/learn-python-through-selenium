@@ -1,5 +1,5 @@
 """
-This class models the form on the weather shopper application main page
+This class models the form on the weather shopper application Moisturizer/Sunscreen product page
 """
 
 from .Base_Page import Base_Page
@@ -8,40 +8,36 @@ from utils.Wrapit import Wrapit
 import re
 
 
-class Moisturizer_Object:
-    "Page object for the Moisturizer"
-     
-    #locators         
-    
+class Product_Object:
+    "Page object for the Moisturizer and sunscreens"     
+    #locators  
     product_price_element = locators.product_price_element
     product_add_element = locators.product_add_element
     cart_button = locators.click_cart  
-    checkout_heading = locators.checkout_heading  
-    redirect_title_cart = 'cart'
+    checkout_heading = locators.checkout_heading    
+    product_category = []    
+    product_moisturizers_category = []
+    product_sunscreens_category = []
+    
 
-    def add_moisturizers(self):
-        "add moisturizers" 
-      
-        result_flag = False        
-        product_category =['Aloe','Almond']
-
+    def add_products(self,product_category):
+        "Add products to the cart"       
+        result_flag = False   
         for product in product_category:
             price_product = 100000          
-            product_elements = self.get_elements(self.product_price_element%product)
-
-            for element in product_elements:                
-                product_price = element.text                   
-                product_price = re.findall(r'\b\d+\b', product_price)              
+            product_elements = self.get_elements(self.product_price_element%product)            
+            for element in product_elements:                           
+                product_price = element.text                                   
+                product_price = re.findall(r'\b\d+\b', product_price)                        
                 if int(product_price[0]) < price_product:                   
-                    price_product = int(product_price[0])                
+                    price_product = int(product_price[0])                               
             result_flag = self.click_element(self.product_add_element%(product,price_product))
             self.conditional_write(result_flag,
-                                positive='Successfully added moisturizers',
-                                negative='Failed to add moisturizers',
+                                positive='Successfully added products',
+                                negative='Failed to add products',
                                 level='debug')        
 
         return result_flag
-
 
     def click_cart(self):
         "Click on the Cart button"
@@ -52,7 +48,6 @@ class Moisturizer_Object:
             level='debug')
 
         return result_flag     
-
 
     def check_redirect_cart(self):
         "Check if we have been redirected to the redirect page"
@@ -70,10 +65,22 @@ class Moisturizer_Object:
 
         return result_flag 
 
-    def process_moisturizers(self):
-        "Process Moisturizers"
-        result_flag = self.add_moisturizers()
+    def process_selected_products(self,product_category):
+        "Process the selected products"        
+        result_flag = self.add_products(product_category)
         result_flag &= self.click_cart()
         result_flag &= self.check_redirect_cart()
         
         return result_flag
+
+    def select_product_type(self,product_moisturizers_category,product_sunscreens_category):
+        "Select products type"
+        title = self.get_title() 
+        title = title.decode('utf-8')       
+        result_flag = None    
+        if title in "Moisturizers":           
+            result_flag = self.process_selected_products(product_moisturizers_category)            
+        elif title in 'Sunscreens':            
+            result_flag = self.process_selected_products(product_sunscreens_category)               
+
+        return result_flag        

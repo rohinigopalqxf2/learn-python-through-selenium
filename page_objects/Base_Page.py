@@ -60,7 +60,7 @@ class Base_Page(Borg,unittest.TestCase):
         #We assume relative URLs start without a / in the beginning
         if base_url[-1] != '/' and trailing_slash_flag is True: 
             base_url += '/' 
-        self.base_url = base_url
+        self.base_url = base_url        
         self.driver_obj = DriverFactory()
         if self.driver is not None: 
             self.start() #Visit and initialize xpaths for the appropriate page

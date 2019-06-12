@@ -8,8 +8,7 @@ from utils.Wrapit import Wrapit
 
 
 class Temperature_Object:
-    "Page object for the Form"
-    
+    "Page object for the temperature page"    
     #locators
     temp_field = locators.temp_field
     click_buy_moisturizers = locators.click_moisturizers
@@ -68,7 +67,7 @@ class Temperature_Object:
         return result_flag 
 
 
-    def check_temperature(self):
+    def process_temperature(self):
         "check the temperature"
         temp_element = self.get_temperature()
         if int(temp_element) <=19:

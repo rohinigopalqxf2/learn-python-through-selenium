@@ -1,23 +1,24 @@
 """
 This class models the redirect page of the temperature page
-URL: sunscreen
+URL: moisturizer
 The page consists of product info, price and adding to cart
 """
 from .Base_Page import Base_Page
-from .common_object import Common_Object
 import conf.locators_conf as locators
+from .payment_object import Payment_Object
+from .product_object import Product_Object
 from utils.Wrapit import Wrapit
 
 
-class Temp_Sunscreen_Redirect_Page(Base_Page,Common_Object):
+class Temperature_Moisturizer_Redirect_Page(Base_Page,Payment_Object,Product_Object):
     "Page Object for the redirect page"
 
     #locators
-    heading = locators.heading_sunscreen
+    heading = locators.heading_moisturizer
 
     def start(self):
         "Use this method to go to specific URL -- if needed"
-        url = 'sunscreen'
+        url = 'moisturizer'
         self.open(url)
 
     @Wrapit._exceptionHandler    
