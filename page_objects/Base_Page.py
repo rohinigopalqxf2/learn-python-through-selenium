@@ -285,8 +285,7 @@ class Base_Page(Borg,unittest.TestCase):
             self.exceptions.append("Error when switching frame")
 
         return result_flag
-
-      
+          
 
     def switch_window(self,name=None):
         "Make the driver switch to the last window or a window with a name"

@@ -24,7 +24,6 @@ class Temperature_Object:
 
         return temp_element
 
-
     def click_moisturizers(self):
         "click the Buy moisturizers button"      
         result_flag = self.click_element(self.click_buy_moisturizers)
