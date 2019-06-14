@@ -14,8 +14,7 @@ class Temperature_Object:
     click_buy_moisturizers = locators.click_moisturizers
     click_buy_sunscreens = locators.click_sunscreens
     redirect_title_mositurizers = 'moisturizers'
-    redirect_title_sunscreens = 'sunscreens'
-  
+    redirect_title_sunscreens = 'sunscreens'  
 
     def get_temperature(self):
         "get the temperature value from the page"
@@ -33,7 +32,6 @@ class Temperature_Object:
             level='debug')
 
         return result_flag
-
 
     def click_sunscreens(self):
         "click the Buy sunscreens button"
@@ -64,7 +62,6 @@ class Temperature_Object:
             self.switch_page("sunscreens")
         
         return result_flag 
-
 
     def process_temperature(self):
         "check the temperature"
