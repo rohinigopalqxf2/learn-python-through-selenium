@@ -33,7 +33,7 @@ class Moisturizers_Object:
     def click_all_moisturizer_button(self):
         "Click all add button for moisturizer's page"
         result_flag =False
-        number_of_moisturizers= self.get_elements(self.add_moisturizer_button) #wrong method
+        number_of_moisturizers= self.get_element(self.add_moisturizer_button)
         for element in number_of_moisturizers:
             result_flag = self.click_element(self.add_moisturizer_button)
             self.conditional_write(result_flag,
@@ -48,11 +48,11 @@ class Moisturizers_Object:
         "Check the count of added items to the cart with the number of add button. They should be same"
         result_flag =False
         number_of_moisturizers= self.get_elements(self.add_moisturizer_button)
-        number_of_add_button = len(number_of_moisturizers)   #not using right function
+        number_of_add_button = number_of_moisturizers   
         cart_cnt = self.get_text(self.cart_count)
         cart_cnt = cart_cnt.decode('utf-8')
         
-        if(number_of_add_button == int(cart_cnt[0])):   #wrong logic, it should be equal to
+        if(number_of_add_button != int(cart_cnt[0])):  
             result_flag=True
             self.conditional_write(result_flag,
             positive='All moisturizers added to the cart',
@@ -229,7 +229,7 @@ class Moisturizers_Object:
     def select_expensive_moisturizer(self):
         "Add all items to the cart and verify if added successfully"
         list_price_most_expensive_moisturizer =self.get_most_expensive_moisturizer()
-        result_flag =self.click_add_expensive_moisturizer(list_price_most_expensive_moisturizer)
+        result_flag =self.click_add_expensive_moisturizer(list_price_most_expensive_moisturizer1)
         result_flag &=self.click_cart()
         result_flag &=self.check_redirect_cart()
         return result_flag

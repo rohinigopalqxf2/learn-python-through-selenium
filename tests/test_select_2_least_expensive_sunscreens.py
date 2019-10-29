@@ -25,7 +25,7 @@ def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os
         actual_pass = -1
 
         #1. Create a test object and load the sunscreens page.
-        test_obj = PageFactory.get_page_object("Sunscreens",base_url=base_url)
+        test_obj = PageFactory.get_page_object("Sunscreen",base_url=base_url)
 
         #2. Setup and register a driver and start the timer
         start_time = int(time.time())

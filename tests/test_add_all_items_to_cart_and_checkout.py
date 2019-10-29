@@ -38,7 +38,7 @@ def test_add_all_items_to_cart_and_checkout(base_url,browser,browser_version,os_
         #3.  get values from conf
         emailid = "aq"+randomStringwithDigitsAndSymbols()+ "@a.com"  #wrong function name called
         credit_card = conf.credit_card
-        cvv=conf.cvv   #1. It should be cvv
+        cvv=conf.cvv1  
         mmyy=conf.mmyy
         phone1=conf.phone 
         zip_code =conf.zip_code_text
@@ -56,7 +56,7 @@ def test_add_all_items_to_cart_and_checkout(base_url,browser,browser_version,os_
                             negative="Failed to add all items to the cart\nOn")
 
         #5.Checkout with payment
-        result_flag = test_obj.do_checkout(emailid,credit_card,cvv,zip_code,mmyy,phone1)  #2. Variable name referenced is not correct
+        result_flag = test_obj.do_checkout(emailid,credit_card,cvv,zip_code,mmyy,phone)  #2. Variable name referenced is not correct
         test_obj.log_result(result_flag,
                             positive="Successfully checkout is completed\n",
                             negative="Failed to checkout\nOn")

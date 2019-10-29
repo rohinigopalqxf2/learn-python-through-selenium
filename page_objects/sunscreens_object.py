@@ -99,7 +99,7 @@ class Sunscreens_Object:
     def click_least_expensive_spf50(self,list_price_least_expensive_spf50):
         "Click on add for least expensive SPF-50 sunscreen"
         min_value = min(list_price_least_expensive_spf50)
-        min_value_str = min_value #conversion to str needed
+        min_value_str = min_value 
         result_flag = self.click_element(self.add_item%min_value_str)
         self.conditional_write(result_flag,
                 positive='Clicked on SPF-50 sunscreen add button',
