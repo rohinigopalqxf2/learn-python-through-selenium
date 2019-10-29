@@ -1,0 +1,117 @@
+2019-10-23 17:44:17 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-23 17:44:20 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-23 17:44:23 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-23 17:44:26 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-23 17:44:29 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-23 17:44:32 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-23 17:44:32 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-23 17:44:33 | INFO | Base_Logging | log_result | PASS: All sunscreens added successfully to the cart
+
+2019-10-23 17:44:33 | INFO | Base_Logging | test_add_all_sunscreens_to_cart | Script duration: 35 seconds
+
+2019-10-23 17:44:33 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-23 17:44:33 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-23 17:44:33 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=7
+2019-10-23 17:44:33 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=7
+2019-10-23 17:44:33 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:45:16 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:45:17 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all moisturizer
+
+2019-10-23 17:45:17 | INFO | Base_Logging | inner | You have this exception
+2019-10-23 17:45:17 | INFO | Base_Logging | inner | Exception in method: select_expensive
+2019-10-23 17:45:17 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'click_add_expensive_moisturizer'
+2019-10-23 17:45:17 | INFO | Base_Logging | log_result | FAIL: Failed to select most expensive sunscreen
+On
+2019-10-23 17:45:17 | INFO | Base_Logging | test_most_expensive_moisturizer | Script duration: 22 seconds
+
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=2
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=1
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=1
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | FAIL: Failed to select most expensive sunscreen
+On
+2019-10-23 17:45:17 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:45:43 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:45:43 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all sunscreen
+
+2019-10-23 17:45:46 | DEBUG | Base_Logging | conditional_write | Clicked on add of most expensive sunscreen
+2019-10-23 17:45:47 | INFO | Base_Logging | log_result | PASS: Selected the most expensive sunscreen
+
+2019-10-23 17:45:47 | INFO | Base_Logging | test_most_expensive_sunscreen | Script duration: 25 seconds
+
+2019-10-23 17:45:47 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=2
+2019-10-23 17:45:47 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-23 17:45:47 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=2
+2019-10-23 17:45:47 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=2
+2019-10-23 17:45:47 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:46:06 | DEBUG | Base_Logging | conditional_write | The temperature is 43 °C
+2019-10-23 17:46:17 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-23 17:46:22 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-23 17:46:25 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-23 17:46:25 | INFO | Base_Logging | log_result | PASS: clicked on right button
+
+2019-10-23 17:46:25 | INFO | Base_Logging | test_read_weather_and_redirect | Script duration: 33 seconds
+
+2019-10-23 17:46:25 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-23 17:46:25 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-23 17:46:25 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=4
+2019-10-23 17:46:25 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=4
+2019-10-23 17:46:25 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:46:51 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:46:51 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:46:51 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:46:56 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:46:56 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:46:56 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:47:04 | INFO | Base_Logging | log_result | PASS: Selected 2  least expensive moisturizers
+
+2019-10-23 17:47:04 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 34 seconds
+
+2019-10-23 17:47:04 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-23 17:47:04 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-23 17:47:04 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=6
+2019-10-23 17:47:04 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=6
+2019-10-23 17:47:04 | INFO | Base_Logging | write_test_summary | ************************

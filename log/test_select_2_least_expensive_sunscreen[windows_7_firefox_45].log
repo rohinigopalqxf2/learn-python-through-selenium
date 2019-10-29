@@ -1,0 +1,8 @@
+2019-10-23 17:17:37 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:17:41 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:17:44 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:17:51 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all almonds
+
+2019-10-23 17:18:14 | INFO | Base_Logging | inner | You have this exception
+2019-10-23 17:18:15 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_almond
+2019-10-23 17:18:15 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'add_item'

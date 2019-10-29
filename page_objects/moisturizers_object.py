@@ -7,7 +7,7 @@ from utils.Wrapit import Wrapit
 import re
 
 class Moisturizers_Object:
-    "Page Object for the moisturizer's  page"
+    "Page Object for the moisturizer's page"
     #locators
     add_moisturizer_button = locators.add_moisturizer_sunscreen_button
     cart_count = locators.cart_count
@@ -33,7 +33,7 @@ class Moisturizers_Object:
     def click_all_moisturizer_button(self):
         "Click all add button for moisturizer's page"
         result_flag =False
-        number_of_moisturizers= self.get_elements(self.add_moisturizer_button)
+        number_of_moisturizers= self.get_elements(self.add_moisturizer_button) #wrong method
         for element in number_of_moisturizers:
             result_flag = self.click_element(self.add_moisturizer_button)
             self.conditional_write(result_flag,
@@ -48,11 +48,11 @@ class Moisturizers_Object:
         "Check the count of added items to the cart with the number of add button. They should be same"
         result_flag =False
         number_of_moisturizers= self.get_elements(self.add_moisturizer_button)
-        number_of_add_button = len(number_of_moisturizers)
+        number_of_add_button = len(number_of_moisturizers)   #not using right function
         cart_cnt = self.get_text(self.cart_count)
         cart_cnt = cart_cnt.decode('utf-8')
         
-        if(number_of_add_button == int(cart_cnt[0])):
+        if(number_of_add_button == int(cart_cnt[0])):   #wrong logic, it should be equal to
             result_flag=True
             self.conditional_write(result_flag,
             positive='All moisturizers added to the cart',

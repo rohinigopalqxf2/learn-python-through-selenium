@@ -1,0 +1,855 @@
+2019-10-22 17:47:06 | DEBUG | Base_Logging | conditional_write | The temperature is 36 °C
+2019-10-22 17:47:12 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-22 17:47:17 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-22 17:47:19 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-22 17:47:19 | INFO | Base_Logging | log_result | PASS: clicked on right button
+
+2019-10-22 17:47:19 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 23 seconds
+
+2019-10-22 17:47:23 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:47:26 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:47:29 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:47:32 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:47:36 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:47:39 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:47:39 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-22 17:47:44 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-22 17:47:46 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-22 17:47:46 | INFO | Base_Logging | log_result | PASS: All moisturizers added successfully to the cart
+
+2019-10-22 17:47:46 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 50 seconds
+
+2019-10-22 17:47:50 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-22 17:47:57 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-22 17:47:57 | DEBUG | Base_Logging | conditional_write | Set the email to: aqQBFwOazk86@a.com
+2019-10-22 17:47:57 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-22 17:47:57 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-22 17:47:58 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-22 17:47:58 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-22 17:48:01 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-22 17:48:06 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]
+
+2019-10-22 17:48:06 | INFO | Base_Logging | get_element | Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-22 17:48:06 | DEBUG | Base_Logging | conditional_write | Failed to set the phone in the form
+2019-10-22 17:48:10 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-22 17:48:32 | DEBUG | Base_Logging | conditional_write | Could not land on confirmation screen
+2019-10-22 17:48:33 | INFO | Base_Logging | log_result | FAIL: Failed to checkout
+On
+2019-10-22 17:48:33 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 97 seconds
+
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=24
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=22
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | FAIL: Failed to checkout
+On
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | 1- Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-22 17:48:33 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-22 17:51:28 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-22 17:51:33 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizers
+2019-10-22 17:51:35 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-22 17:51:35 | INFO | Base_Logging | log_result | PASS: clicked on right button
+
+2019-10-22 17:51:35 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 26 seconds
+
+2019-10-22 17:51:38 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:51:42 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:51:45 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:51:48 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:51:51 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:51:55 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-22 17:51:55 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-22 17:52:00 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-22 17:52:02 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-22 17:52:02 | INFO | Base_Logging | log_result | PASS: All moisturizers added successfully to the cart
+
+2019-10-22 17:52:02 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 53 seconds
+
+2019-10-22 17:52:06 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-22 17:52:13 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-22 17:52:13 | DEBUG | Base_Logging | conditional_write | Set the email to: aqDp=rn0}nz_@a.com
+2019-10-22 17:52:14 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-22 17:52:14 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-22 17:52:14 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-22 17:52:14 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-22 17:52:17 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-22 17:52:18 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-22 17:52:21 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-22 17:52:50 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-22 17:53:13 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-22 17:53:29 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-22 17:53:31 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 142 seconds
+
+2019-10-22 17:53:31 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-22 17:53:31 | INFO | Base_Logging | write_test_summary | Total number of checks passed=3
+----------------------
+************************
+
+
+2019-10-22 17:53:31 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=25
+2019-10-22 17:53:32 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=25
+2019-10-22 17:53:32 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 14:28:56 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-24 14:29:04 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizers
+2019-10-24 14:29:06 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-24 14:29:18 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-24 14:35:15 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-24 14:35:21 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizers
+2019-10-24 14:35:23 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-24 14:35:23 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-24 14:35:26 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 14:35:29 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 14:35:33 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 14:35:36 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 14:35:39 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 14:35:42 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 14:35:42 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-24 14:35:48 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 14:35:50 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 14:35:50 | INFO | Base_Logging | log_result | PASS: All items added successfully to the cart
+
+2019-10-24 14:35:54 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-24 14:36:01 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-24 14:36:01 | DEBUG | Base_Logging | conditional_write | Set the email to: aqu23:99E*Ck@a.com
+2019-10-24 14:36:02 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-24 14:36:02 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-24 14:36:02 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-24 14:36:02 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-24 14:36:05 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-24 14:36:06 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-24 14:36:09 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-24 14:36:11 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-24 14:36:11 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-24 14:36:11 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-24 14:36:11 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 88 seconds
+
+2019-10-24 14:36:11 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-24 14:36:11 | INFO | Base_Logging | write_test_summary | Total number of checks passed=3
+----------------------
+************************
+
+
+2019-10-24 14:36:11 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=25
+2019-10-24 14:36:11 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=25
+2019-10-24 14:36:11 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 14:58:30 | DEBUG | Base_Logging | conditional_write | Clicked on buy moisturizers button
+2019-10-24 14:58:35 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 14:58:35 | INFO | Base_Logging | inner | Exception in method: get_page_heading
+2019-10-24 14:58:35 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object has no attribute 'decode'
+2019-10-24 14:58:36 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 14:58:36 | INFO | Base_Logging | inner | Exception in method: check_redirect_moisturizers
+2019-10-24 14:58:36 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'lower'
+2019-10-24 14:58:36 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 14:58:36 | INFO | Base_Logging | inner | Exception in method: click_product_category
+2019-10-24 14:58:36 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-24 15:00:27 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:00:27 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-24 15:00:27 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-24 15:07:47 | DEBUG | Base_Logging | conditional_write | The temperature is 37 °C
+2019-10-24 15:07:58 | DEBUG | Base_Logging | conditional_write | Clicked on buy sunscreen button
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | Exception in method: get_page_heading
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object has no attribute 'decode'
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | Exception in method: check_redirect_sunscreen
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not subscriptable
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | Exception in method: click_product_category
+2019-10-24 15:08:03 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-24 15:27:01 | DEBUG | Base_Logging | conditional_write | The temperature is 46 °C
+2019-10-24 15:27:07 | DEBUG | Base_Logging | conditional_write | Clicked on buy sunscreen button
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | Exception in method: get_page_heading
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object has no attribute 'decode'
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | Exception in method: check_redirect_sunscreen
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not subscriptable
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | Exception in method: click_product_category
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-24 15:27:12 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-24 15:27:13 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-24 15:27:16 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:27:19 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:27:22 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:27:26 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:27:29 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:27:32 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:27:32 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:27:32 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-24 15:27:32 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object has no attribute 'decode'
+2019-10-24 15:27:32 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:27:32 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-24 15:27:32 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-24 15:27:32 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-24 15:50:46 | DEBUG | Base_Logging | conditional_write | The temperature is 47 °C
+2019-10-24 15:50:58 | DEBUG | Base_Logging | conditional_write | Clicked on buy sunscreen button
+2019-10-24 15:51:07 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-24 15:51:09 | DEBUG | Base_Logging | conditional_write | Landed on sunscreen page
+2019-10-24 15:51:19 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-24 15:51:39 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:51:45 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:51:50 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:51:55 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:52:00 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:52:07 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-24 15:52:49 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-24 15:53:00 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 15:53:22 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 15:53:25 | INFO | Base_Logging | log_result | PASS: All items added successfully to the cart
+
+2019-10-24 15:53:29 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-24 15:53:36 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-24 15:53:36 | DEBUG | Base_Logging | conditional_write | Set the email to: aq-r&V/kXb)s@a.com
+2019-10-24 15:53:37 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-24 15:53:37 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-24 15:53:37 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-24 15:53:37 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-24 15:53:40 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-24 15:53:41 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 12345789
+2019-10-24 15:53:44 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-24 15:53:46 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-24 15:53:46 | DEBUG | Base_Logging | conditional_write | Could not land on confirmation screen
+2019-10-24 15:53:46 | INFO | Base_Logging | log_result | FAIL: Failed to checkout
+On
+2019-10-24 15:53:46 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 193 seconds
+
+2019-10-24 15:53:46 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-24 15:53:46 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-24 15:53:46 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=25
+2019-10-24 15:53:46 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=24
+2019-10-24 15:53:46 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-24 15:53:46 | INFO | Base_Logging | write_test_summary | FAIL: Failed to checkout
+On
+2019-10-24 15:53:47 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-28 10:32:18 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 10:32:18 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-28 10:35:34 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 10:35:34 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-28 10:35:34 | INFO | Base_Logging | inner | PYTHON SAYS: name 'temp_text1' is not defined
+2019-10-28 11:07:57 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:07:57 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-28 11:07:59 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-28 11:22:34 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 11:22:45 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreen
+2019-10-28 11:22:53 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 11:22:53 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-28 11:33:57 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-28 11:34:14 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturize
+2019-10-28 11:37:14 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 11:37:36 | DEBUG | Base_Logging | conditional_write | The heading of the page is unscreens
+2019-10-28 11:39:47 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 11:40:04 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //h2[contains(text(),'unsreens')]
+
+2019-10-28 11:40:04 | INFO | Base_Logging | get_element | Check your locator-'xpath,//h2[contains(text(),'unsreens')]' in the conf/locators.conf file
+2019-10-28 11:40:04 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 11:40:04 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:40:04 | INFO | Base_Logging | inner | Exception in method: get_page_heading
+2019-10-28 11:40:04 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 11:40:16 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:40:16 | INFO | Base_Logging | inner | Exception in method: check_redirect_sunscreen
+2019-10-28 11:40:17 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not subscriptable
+2019-10-28 11:41:58 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 11:42:13 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //h2[contains(text(),'unsreens')]
+
+2019-10-28 11:42:13 | INFO | Base_Logging | get_element | Check your locator-'xpath,//h2[contains(text(),'unsreens')]' in the conf/locators.conf file
+2019-10-28 11:42:13 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | Exception in method: get_page_heading
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | Exception in method: check_redirect_sunscreen
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not subscriptable
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-28 11:42:13 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-28 11:42:13 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-28 11:44:24 | DEBUG | Base_Logging | get_element | Message: Given xpath expression "//button[text()=='Buy sunscreens']" is invalid: SyntaxError: The expression is not a legal expression.
+
+2019-10-28 11:44:24 | INFO | Base_Logging | get_element | Check your locator-'xpath,//button[text()=='Buy sunscreens']' in the conf/locators.conf file
+2019-10-28 11:44:24 | DEBUG | Base_Logging | conditional_write | Could not click buy moisturizers button
+2019-10-28 11:44:43 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //h2[contains(text(),'unsreens')]
+
+2019-10-28 11:44:43 | INFO | Base_Logging | get_element | Check your locator-'xpath,//h2[contains(text(),'unsreens')]' in the conf/locators.conf file
+2019-10-28 11:44:43 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | Exception in method: get_page_heading
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | Exception in method: check_redirect_sunscreen
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not subscriptable
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-28 11:44:43 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-28 11:44:43 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-28 12:21:35 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 12:21:35 | INFO | Base_Logging | inner | Exception in method: check_temp_and_click_product_category
+2019-10-28 12:21:35 | INFO | Base_Logging | inner | PYTHON SAYS: name 'temp_text1' is not defined
+2019-10-28 12:21:35 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-28 12:22:03 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 12:22:15 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 12:22:30 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-28 12:22:34 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-28 12:59:42 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 12:59:48 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 13:00:58 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 13:00:58 | INFO | Base_Logging | log_result | FAIL: Failed to click right button
+On
+2019-10-28 13:01:01 | DEBUG | Base_Logging | get_element | Message: unknown variant ``, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 12
+
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | PYTHON SAYS: tuple index out of range
+2019-10-28 13:01:01 | DEBUG | Base_Logging | get_elements | Message: unknown variant ``, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 12
+
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | PYTHON SAYS: tuple index out of range
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-28 13:01:01 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-28 13:01:01 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 13:01:58 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //button[text()='Buy moisturizer']
+
+2019-10-28 13:01:59 | INFO | Base_Logging | get_element | Check your locator-'xpath,//button[text()='Buy moisturizer']' in the conf/locators.conf file
+2019-10-28 13:02:59 | DEBUG | Base_Logging | conditional_write | Could not click buy moisturizers button
+2019-10-28 14:39:45 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 14:39:50 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 14:39:59 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 14:39:59 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 14:41:06 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-28 14:41:21 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-28 14:41:26 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-28 14:41:26 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 14:42:04 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-28 14:42:04 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 14:42:04 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 14:42:04 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 14:42:04 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-28 14:42:04 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 15:36:43 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 15:36:51 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 15:37:06 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 15:37:06 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 15:37:36 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-28 15:37:36 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 15:37:36 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 15:37:36 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 15:37:36 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-28 15:37:36 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 15:37:36 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 15:37:36 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-28 15:37:36 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-28 15:37:36 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 15:54:50 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 15:54:55 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 15:55:04 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 15:55:04 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 15:55:31 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 15:55:40 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 15:55:50 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 15:55:56 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 15:56:02 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 15:56:09 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 15:57:45 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-28 15:57:56 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-28 15:58:07 | DEBUG | Base_Logging | conditional_write | Could not land on cart screen
+2019-10-28 15:58:13 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 16:34:11 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 16:34:16 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 16:34:20 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 16:34:20 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 16:34:27 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 16:34:36 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 16:34:40 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 16:34:43 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 16:34:46 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 16:34:49 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 16:35:01 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-28 16:35:06 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-28 16:35:06 | DEBUG | Base_Logging | conditional_write | Could not land on cart screen
+2019-10-28 16:35:06 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 16:35:34 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-28 16:35:42 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-28 16:35:48 | DEBUG | Base_Logging | conditional_write | Set the email to: aq7{kXbM,W{o@a.com
+2019-10-28 16:35:51 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-28 16:35:53 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-28 16:35:54 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-28 16:35:55 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-28 16:36:02 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-28 17:03:43 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:03:48 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:03:54 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:03:54 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:04:05 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 17:04:08 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 17:04:11 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 17:04:15 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 17:04:18 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 17:04:21 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-28 17:04:21 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-28 17:04:27 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-28 17:04:27 | DEBUG | Base_Logging | conditional_write | Could not land on cart screen
+2019-10-28 17:04:27 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 17:04:36 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-28 17:04:43 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-28 17:04:43 | DEBUG | Base_Logging | conditional_write | Set the email to: aqq<I?2Ux1kx@a.com
+2019-10-28 17:04:44 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-28 17:04:44 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-28 17:04:44 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-28 17:04:44 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-28 17:04:47 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-28 17:05:04 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-28 17:05:12 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-28 17:05:15 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-28 17:05:16 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-28 17:05:25 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-28 17:05:26 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 121 seconds
+
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=24
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=23
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all items to the cart
+On
+2019-10-28 17:05:28 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-28 17:10:57 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:11:02 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:11:06 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:11:06 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:21:43 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:21:48 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:21:51 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:21:52 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:21:56 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:21:56 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:21:56 | INFO | Base_Logging | inner | PYTHON SAYS: cannot unpack non-iterable FirefoxWebElement object
+2019-10-28 17:23:05 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-28 17:23:10 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-28 17:23:12 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-28 17:23:12 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:23:32 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:23:33 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:23:34 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object is not callable
+2019-10-28 17:24:18 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-28 17:24:18 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 17:24:18 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 17:24:18 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:24:18 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-28 17:24:18 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 17:24:19 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:24:19 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-28 17:24:19 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-28 17:24:19 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 17:24:39 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:24:44 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:24:46 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:24:46 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:26:14 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:26:14 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:26:14 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object is not callable
+2019-10-28 17:26:36 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-28 17:26:41 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-28 17:26:43 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-28 17:26:43 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:26:57 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:26:57 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:26:58 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object is not callable
+2019-10-28 17:31:19 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:31:24 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:31:26 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:31:26 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:32:26 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:32:27 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:32:28 | INFO | Base_Logging | inner | PYTHON SAYS: int() argument must be a string, a bytes-like object or a number, not 'list'
+2019-10-28 17:32:39 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-28 17:32:39 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 17:32:40 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 17:32:40 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:32:40 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-28 17:32:40 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 17:32:40 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:32:40 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-28 17:32:40 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-28 17:32:40 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 17:32:45 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //button[@type='submit']
+
+2019-10-28 17:32:45 | INFO | Base_Logging | get_element | Check your locator-'xpath,//button[@type='submit']' in the conf/locators.conf file
+2019-10-28 17:32:45 | DEBUG | Base_Logging | conditional_write | Could not click pay with card button
+2019-10-28 17:33:27 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:33:33 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:33:35 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:33:35 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:34:03 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:34:03 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:34:05 | INFO | Base_Logging | inner | PYTHON SAYS: 'str' object is not callable
+2019-10-28 17:34:19 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-28 17:34:19 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 17:34:20 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-28 17:34:20 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:34:20 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-28 17:34:20 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-28 17:34:20 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:34:20 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-28 17:34:20 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-28 17:34:20 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-28 17:34:25 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //button[@type='submit']
+
+2019-10-28 17:34:25 | INFO | Base_Logging | get_element | Check your locator-'xpath,//button[@type='submit']' in the conf/locators.conf file
+2019-10-28 17:34:25 | DEBUG | Base_Logging | conditional_write | Could not click pay with card button
+2019-10-28 17:34:37 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:34:37 | INFO | Base_Logging | inner | Exception in method: switch_to_popup_iframe
+2019-10-28 17:34:37 | INFO | Base_Logging | inner | PYTHON SAYS: Message: stripe_checkout_app
+
+2019-10-28 17:34:37 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:34:37 | INFO | Base_Logging | inner | Exception in method: do_checkout
+2019-10-28 17:34:37 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-28 17:34:37 | INFO | Base_Logging | log_result | FAIL: Failed to checkout
+On
+2019-10-28 17:34:37 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 85 seconds
+
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=4
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=3
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all items to the cart
+On
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | FAIL: Failed to checkout
+On
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | 1- Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | 2- Check your locator-'xpath,//button[@type='submit']' in the conf/locators.conf file
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | 3- Error when getting text from the path-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-28 17:34:37 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-28 17:42:17 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:42:22 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:42:25 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:42:25 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:43:57 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-28 17:44:02 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-28 17:44:04 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-28 17:44:04 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-28 17:44:09 | INFO | Base_Logging | inner | You have this exception
+2019-10-28 17:44:10 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-28 17:44:11 | INFO | Base_Logging | inner | PYTHON SAYS: not all arguments converted during string formatting
+2019-10-29 19:05:59 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 19:06:05 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 19:06:07 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 19:06:07 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 19:06:27 | DEBUG | Base_Logging | get_element | Message: unknown variant `x`, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 13
+
+2019-10-29 19:06:27 | DEBUG | Base_Logging | click_element | tuple index out of range
+2019-10-29 19:06:27 | INFO | Base_Logging | click_element | Exception when clicking link with path: x
+2019-10-29 19:08:03 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 19:08:09 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 19:08:11 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 19:08:11 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 19:16:54 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 19:16:59 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 19:17:01 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 19:17:01 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 19:17:28 | INFO | Base_Logging | inner | You have this exception
+2019-10-29 19:17:28 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-29 19:17:28 | INFO | Base_Logging | inner | PYTHON SAYS: string indices must be integers
+2019-10-29 19:27:27 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 19:27:32 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 19:27:34 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 19:27:35 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 19:27:48 | INFO | Base_Logging | inner | You have this exception
+2019-10-29 19:27:49 | INFO | Base_Logging | inner | Exception in method: click_add_button
+2019-10-29 19:27:53 | INFO | Base_Logging | inner | PYTHON SAYS: click_add_button() missing 1 required positional argument: 'page_title'
+2019-10-29 19:28:34 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-29 19:28:39 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-29 19:28:41 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-29 19:28:42 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 19:28:55 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 19:29:04 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 19:29:11 | DEBUG | Base_Logging | conditional_write | Could not land on cart screen
+2019-10-29 19:29:16 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-29 19:29:20 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-29 19:29:28 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-29 19:29:28 | DEBUG | Base_Logging | conditional_write | Set the email to: aqxaJThhrfa[@a.com
+2019-10-29 19:29:29 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-29 19:29:29 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-29 19:29:30 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-29 19:29:30 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-29 19:29:33 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-29 19:29:34 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-29 19:29:37 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-29 19:29:39 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-29 19:29:40 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-29 19:30:21 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-29 19:30:21 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 124 seconds
+
+2019-10-29 19:30:21 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-29 19:30:21 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-29 19:30:21 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=18
+2019-10-29 19:30:22 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=17
+2019-10-29 19:30:22 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-29 19:30:22 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all items to the cart
+On
+2019-10-29 19:30:22 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-29 20:11:54 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 20:12:17 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 20:12:46 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 20:13:02 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 20:13:20 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 20:13:54 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 20:13:57 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-29 20:14:02 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-29 20:14:05 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-29 20:14:13 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-29 20:14:13 | DEBUG | Base_Logging | conditional_write | Set the email to: aqjR3.B+l~sp@a.com
+2019-10-29 20:14:14 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-29 20:14:14 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-29 20:14:14 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-29 20:14:15 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-29 20:14:18 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-29 20:14:18 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-29 20:14:22 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-29 20:14:24 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-29 20:14:24 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-29 20:14:25 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-29 20:14:25 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 197 seconds
+
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=18
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=18
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all items to the cart
+On
+2019-10-29 20:14:25 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-29 20:16:01 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-29 20:16:07 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-29 20:16:09 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-29 20:16:09 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 20:16:32 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 20:16:38 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 20:16:40 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-29 20:16:40 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-29 20:16:44 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-29 20:16:51 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-29 20:16:51 | DEBUG | Base_Logging | conditional_write | Set the email to: aq7;yOxJX\M=@a.com
+2019-10-29 20:16:52 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-29 20:16:52 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-29 20:16:53 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-29 20:16:53 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-29 20:16:56 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-29 20:16:57 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-29 20:17:00 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-29 20:17:02 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-29 20:17:03 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-29 20:17:03 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-29 20:17:03 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 80 seconds
+
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=18
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=18
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all items to the cart
+On
+2019-10-29 20:17:03 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-29 20:18:19 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-29 20:18:24 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-29 20:18:27 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-29 20:18:27 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 20:18:38 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 20:18:45 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 20:19:05 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-29 20:20:02 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 20:20:07 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 20:20:09 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 20:20:10 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 20:20:48 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 20:22:49 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-29 20:22:54 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-29 20:22:57 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-29 20:22:57 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 20:23:04 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 20:25:58 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-29 20:26:04 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-29 20:26:06 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-29 20:26:06 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-29 20:26:27 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-29 20:26:29 | DEBUG | Base_Logging | conditional_write | One items added to the cart
+2019-10-29 20:26:38 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 20:26:50 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-29 20:26:50 | INFO | Base_Logging | log_result | PASS: All items added successfully to the cart
+
+2019-10-29 20:26:54 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-29 20:27:01 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-29 20:27:01 | DEBUG | Base_Logging | conditional_write | Set the email to: aq>a/Z>VJY)_@a.com
+2019-10-29 20:27:02 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-29 20:27:02 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-29 20:27:03 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-29 20:27:03 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-29 20:27:07 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-29 20:27:07 | DEBUG | Base_Logging | conditional_write | Set the phone number to: 9900378310
+2019-10-29 20:27:10 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-29 20:27:13 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-29 20:27:13 | DEBUG | Base_Logging | conditional_write | Landed on confirmation screen
+2019-10-29 20:27:13 | INFO | Base_Logging | log_result | PASS: Successfully checkout is completed
+
+2019-10-29 20:27:13 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 103 seconds
+
+2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | Total number of checks passed=3
+----------------------
+************************
+
+
+2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=19
+2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=19
+2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | ************************

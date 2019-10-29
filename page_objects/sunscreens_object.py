@@ -99,7 +99,7 @@ class Sunscreens_Object:
     def click_least_expensive_spf50(self,list_price_least_expensive_spf50):
         "Click on add for least expensive SPF-50 sunscreen"
         min_value = min(list_price_least_expensive_spf50)
-        min_value_str = str(min_value)
+        min_value_str = min_value #conversion to str needed
         result_flag = self.click_element(self.add_item%min_value_str)
         self.conditional_write(result_flag,
                 positive='Clicked on SPF-50 sunscreen add button',
@@ -215,10 +215,10 @@ class Sunscreens_Object:
     @Wrapit._exceptionHandler
     def click_add_expensive_sunscreens(self,list_price_most_expensive_sunscreens):
         "Click on add for expensive item"
-        max_value = max(list_price_most_expensive_sunscreens)
+        max_value = max(list_price_most_expensive_sunscreens) #wrong function used
         print(max_value)
         max_value_str = str(max_value)
-        result_flag = self.click_element(self.add_most_expensive%max_value_str)
+        result_flag = self.click_element(self.add_most_expensive%max_value_str)  #wrong variable
         self.conditional_write(result_flag,
             positive='Clicked on add of most expensive sunscreen',
             negative='Could not click expensive sunscreen ',
@@ -231,7 +231,7 @@ class Sunscreens_Object:
     def select_expensive_sunscreen(self):
         "Add all items to the cart and verify if added successfully"
         list_price_most_expensive_sunscreens =self.get_most_expensive_sunscreens()
-        result_flag =self.click_add_expensive_sunscreens(list_price_most_expensive_sunscreens)
+        result_flag =self.click_add_expensive_sunscreens(list_price_most_expensive_sunscreens) #variable name is wrong
         result_flag &=self.click_cart()
         result_flag &=self.check_redirect_cart()
         return result_flag

@@ -1,0 +1,58 @@
+2019-10-16 17:36:18 | INFO | Base_Logging | read_browser_console_log | Exception when reading Browser Console log
+2019-10-16 17:36:18 | INFO | Base_Logging | read_browser_console_log | Message: POST /session/efc5411c-e811-495e-8dbb-9ccdd03c934d/log did not match a known command
+
+2019-10-16 17:36:18 | INFO | Base_Logging | print_table_text | Name||Email||Phone||Gender
+2019-10-16 17:36:18 | INFO | Base_Logging | print_table_text | Michael|michael@example.com|9898989898|Male
+2019-10-16 17:36:18 | INFO | Base_Logging | print_table_text | Williams|williams@example.com|7878787878|Female
+2019-10-16 17:36:18 | INFO | Base_Logging | print_table_text | Roger Federer|roger@example.com|6767676767|Male
+2019-10-16 17:36:18 | INFO | Base_Logging | log_result | PASS: Completed printing table text
+2019-10-16 17:36:18 | INFO | Base_Logging | test_example_table | Script duration: 13 seconds
+
+2019-10-16 17:36:18 | INFO | Base_Logging | read_browser_console_log | Exception when reading Browser Console log
+2019-10-16 17:36:18 | INFO | Base_Logging | read_browser_console_log | Message: POST /session/efc5411c-e811-495e-8dbb-9ccdd03c934d/log did not match a known command
+
+2019-10-16 17:36:18 | INFO | Base_Logging | log_result | PASS: Located the name Michael in the table
+2019-10-16 17:36:18 | INFO | Base_Logging | test_example_table | Script duration: 13 seconds
+
+2019-10-16 17:36:18 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=2
+2019-10-16 17:36:18 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-16 17:36:18 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=0
+2019-10-16 17:36:18 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=0
+2019-10-16 17:36:18 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-16 17:47:28 | INFO | Base_Logging | read_browser_console_log | Exception when reading Browser Console log
+2019-10-16 17:47:28 | INFO | Base_Logging | read_browser_console_log | Message: POST /session/877df0d6-3aa0-407e-bb7e-6246268e4600/log did not match a known command
+
+2019-10-16 17:47:28 | INFO | Base_Logging | print_table_text | Name||Email||Phone||Gender
+2019-10-16 17:47:28 | INFO | Base_Logging | print_table_text | Michael|michael@example.com|9898989898|Male
+2019-10-16 17:47:28 | INFO | Base_Logging | print_table_text | Williams|williams@example.com|7878787878|Female
+2019-10-16 17:47:28 | INFO | Base_Logging | print_table_text | Roger Federer|roger@example.com|6767676767|Male
+2019-10-16 17:47:28 | INFO | Base_Logging | log_result | PASS: Completed printing table text
+2019-10-16 17:47:28 | INFO | Base_Logging | test_example_table | Script duration: 11 seconds
+
+2019-10-16 17:47:28 | INFO | Base_Logging | read_browser_console_log | Exception when reading Browser Console log
+2019-10-16 17:47:28 | INFO | Base_Logging | read_browser_console_log | Message: POST /session/877df0d6-3aa0-407e-bb7e-6246268e4600/log did not match a known command
+
+2019-10-16 17:47:28 | INFO | Base_Logging | log_result | PASS: Located the name Michael in the table
+2019-10-16 17:47:28 | INFO | Base_Logging | test_example_table | Script duration: 11 seconds
+
+2019-10-16 17:47:28 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=2
+2019-10-16 17:47:28 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-16 17:47:28 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=0
+2019-10-16 17:47:28 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=0
+2019-10-16 17:47:28 | INFO | Base_Logging | write_test_summary | ************************

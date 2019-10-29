@@ -1,0 +1,200 @@
+2019-10-24 10:09:40 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 10:09:40 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 10:09:40 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 10:09:45 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 10:09:45 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 10:09:45 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 10:09:49 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-24 10:09:52 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-24 10:10:01 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 10:10:04 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 10:10:04 | INFO | Base_Logging | log_result | PASS: Selected 2  least expensive sunscreens
+
+2019-10-24 10:10:04 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 45 seconds
+
+2019-10-24 10:10:04 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 10:10:04 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-24 10:10:04 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=10
+2019-10-24 10:10:04 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=10
+2019-10-24 10:10:04 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 12:01:23 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 12:01:23 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 12:01:28 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 12:01:28 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 12:01:28 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 12:01:28 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 12:01:31 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-24 12:01:35 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-24 12:01:42 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 12:01:44 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 12:01:45 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive sunscreens
+
+2019-10-24 12:01:45 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 49 seconds
+
+2019-10-24 12:01:45 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 12:01:45 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-24 12:01:45 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=10
+2019-10-24 12:01:45 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=10
+2019-10-24 12:01:45 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 14:47:05 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 14:47:05 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 14:47:10 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 14:47:10 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 14:47:10 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 14:47:14 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-24 14:47:17 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-24 14:47:24 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 14:47:26 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 14:47:27 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive sunscreens
+
+2019-10-24 14:47:27 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 44 seconds
+
+2019-10-24 14:47:27 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 14:47:27 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-24 14:47:27 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=9
+2019-10-24 14:47:27 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=9
+2019-10-24 14:47:27 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 15:33:13 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 15:33:19 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:33:19 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:33:19 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:33:19 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:33:19 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:33:22 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-24 15:33:25 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-24 15:33:32 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 15:33:34 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 15:33:35 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive sunscreens
+
+2019-10-24 15:33:35 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 42 seconds
+
+2019-10-24 15:33:35 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 15:33:35 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-24 15:33:35 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=10
+2019-10-24 15:33:35 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=10
+2019-10-24 15:33:35 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 15:37:32 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 15:37:32 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 15:37:37 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:37:37 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:37:37 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:37:41 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-24 15:37:44 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-24 15:38:01 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 15:38:01 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 15:38:01 | INFO | Base_Logging | inner | Exception in method: select_2_least_expensive_sunscreens
+2019-10-24 15:38:01 | INFO | Base_Logging | inner | PYTHON SAYS: Message: unknown error: session deleted because of page crash
+from tab crashed
+  (Session info: chrome=77.0.3865.120)
+
+2019-10-24 15:59:02 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 15:59:02 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 15:59:02 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-24 15:59:08 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:59:08 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:59:08 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-24 15:59:11 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-24 15:59:15 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-24 15:59:19 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 15:59:22 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 15:59:23 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive sunscreens
+
+2019-10-24 15:59:23 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 41 seconds
+
+2019-10-24 15:59:23 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 15:59:23 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-24 15:59:23 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=10
+2019-10-24 15:59:23 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=10
+2019-10-24 15:59:23 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-29 20:02:28 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-29 20:02:28 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-29 20:02:28 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-29 20:02:34 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-29 20:02:34 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-29 20:02:38 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-29 20:02:41 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-29 20:02:49 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 20:02:51 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-29 20:02:52 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive sunscreens
+
+2019-10-29 20:02:52 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 45 seconds
+
+2019-10-29 20:02:52 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-29 20:02:52 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-29 20:02:52 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=9
+2019-10-29 20:02:52 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=9
+2019-10-29 20:02:52 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-29 20:32:44 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-29 20:32:44 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-29 20:32:44 | DEBUG | Base_Logging | conditional_write | SPF-50 sunscreens are added to the array
+2019-10-29 20:32:49 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-29 20:32:49 | DEBUG | Base_Logging | conditional_write | SPF-30 sunscreens are added to the array
+2019-10-29 20:32:53 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-50 sunscreen add button
+2019-10-29 20:32:57 | DEBUG | Base_Logging | conditional_write | Clicked on SPF-30 sunscreen add button
+2019-10-29 20:33:05 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-29 20:33:07 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-29 20:33:08 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive sunscreens
+
+2019-10-29 20:33:08 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 45 seconds
+
+2019-10-29 20:33:08 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-29 20:33:08 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-29 20:33:08 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=9
+2019-10-29 20:33:08 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=9
+2019-10-29 20:33:08 | INFO | Base_Logging | write_test_summary | ************************

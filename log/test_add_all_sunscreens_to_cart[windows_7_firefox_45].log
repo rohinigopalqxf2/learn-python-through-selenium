@@ -1,0 +1,24 @@
+2019-10-17 18:08:39 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-17 18:08:42 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-17 18:08:45 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-17 18:08:49 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-17 18:08:52 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-17 18:08:55 | DEBUG | Base_Logging | conditional_write | Clicked on add Sunscreen button
+2019-10-17 18:08:59 | DEBUG | Base_Logging | conditional_write | All Sunscreen added to the cart
+2019-10-17 18:09:08 | INFO | Base_Logging | log_result | PASS: All sunscreens added successfully to the cart
+
+2019-10-17 18:09:08 | INFO | Base_Logging | test_add_all_sunscreens_to_cart | Script duration: 52 seconds
+
+2019-10-17 18:09:09 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-17 18:09:09 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-17 18:09:09 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=7
+2019-10-17 18:09:09 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=7
+2019-10-17 18:09:09 | INFO | Base_Logging | write_test_summary | ************************

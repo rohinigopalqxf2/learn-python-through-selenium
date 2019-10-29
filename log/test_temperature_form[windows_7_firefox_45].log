@@ -1,0 +1,10 @@
+2019-10-17 15:39:57 | DEBUG | Base_Logging | conditional_write | Clicked on the "Buy sunscreens" button
+2019-10-17 15:40:11 | INFO | Base_Logging | log_result | PASS: Successfully read the temperature
+2019-10-17 15:40:11 | INFO | Base_Logging | test_temperature_form | Script duration: 73 seconds
+
+2019-10-17 15:41:03 | DEBUG | Base_Logging | conditional_write | Correct heading present on redirect page
+2019-10-17 15:41:03 | INFO | Base_Logging | log_result | PASS: Heading on the redirect page checks out!
+
+2019-10-17 15:41:03 | INFO | Base_Logging | test_temperature_form | Script duration: 125 seconds
+
+2019-10-17 15:41:06 | DEBUG | Base_Logging | conditional_write | Successfully added products

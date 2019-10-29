@@ -1,0 +1,103 @@
+2019-10-24 09:42:50 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:42:50 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_spf50
+2019-10-24 09:42:50 | INFO | Base_Logging | inner | PYTHON SAYS: 'Sunscreen_Page' object has no attribute 'spf50_price'
+2019-10-24 09:44:48 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:44:49 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_spf50
+2019-10-24 09:44:51 | INFO | Base_Logging | inner | PYTHON SAYS: 'Sunscreen_Page' object has no attribute 'spf50_price'
+2019-10-24 09:45:14 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:45:14 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_spf30
+2019-10-24 09:45:14 | INFO | Base_Logging | inner | PYTHON SAYS: 'Sunscreen_Page' object has no attribute 'spf30_price'
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_spf50
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not iterable
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_spf30
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not iterable
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | Exception in method: select_2_least_expensive_sunscreens
+2019-10-24 09:45:15 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-24 09:45:15 | INFO | Base_Logging | log_result | FAIL: Failed to select 2 least expensive mositurizers
+On
+2019-10-24 09:45:15 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 62 seconds
+
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | Total number of checks passed=0
+----------------------
+************************
+
+
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=0
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=0
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | FAIL: Failed to select 2 least expensive mositurizers
+On
+2019-10-24 09:45:15 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 09:47:36 | DEBUG | Base_Logging | conditional_write | spf50 are added to the array
+2019-10-24 09:47:41 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:47:41 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:47:41 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:47:41 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_spf50
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | PYTHON SAYS: 'Sunscreen_Page' object has no attribute 'add_item'
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_spf30
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | PYTHON SAYS: 'Sunscreen_Page' object has no attribute 'add_item'
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | You have this exception
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | Exception in method: select_2_least_expensive_sunscreens
+2019-10-24 09:48:16 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-24 09:48:17 | INFO | Base_Logging | log_result | FAIL: Failed to select 2 least expensive mositurizers
+On
+2019-10-24 09:48:17 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 72 seconds
+
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | Total number of checks passed=0
+----------------------
+************************
+
+
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=5
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=5
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | FAIL: Failed to select 2 least expensive mositurizers
+On
+2019-10-24 09:48:17 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-24 09:49:56 | DEBUG | Base_Logging | conditional_write | spf50 are added to the array
+2019-10-24 09:49:56 | DEBUG | Base_Logging | conditional_write | spf50 are added to the array
+2019-10-24 09:50:01 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:50:01 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:50:02 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:50:02 | DEBUG | Base_Logging | conditional_write | spf30 are added to the array
+2019-10-24 09:50:38 | DEBUG | Base_Logging | conditional_write | Clicked on spf50 add button
+2019-10-24 09:50:43 | DEBUG | Base_Logging | conditional_write | Clicked on spf30 add button
+2019-10-24 09:50:49 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-24 09:50:58 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-24 09:51:08 | INFO | Base_Logging | log_result | PASS: Selected 2  least expensive moisturizers
+
+2019-10-24 09:51:08 | INFO | Base_Logging | test_select_2_least_expensive_sunscreens | Script duration: 121 seconds
+
+2019-10-24 09:51:08 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-24 09:51:08 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-24 09:51:08 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=10
+2019-10-24 09:51:08 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=10
+2019-10-24 09:51:08 | INFO | Base_Logging | write_test_summary | ************************
