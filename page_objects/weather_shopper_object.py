@@ -67,14 +67,14 @@ class Weather_Shopper_object:
         temp_text = temp_text.decode('utf-8')
         temp_text = str(temp_text)
         temp_value = temp_text.split(None , 1)
-        temp_number= int(temp_value[0]) #1 Exception will be shown as it cannot encode char. Right solution will be to pick 0th index 
+        temp_number= int(temp_value[1]) 
         if temp_text !='':
             if temp_number < 19:
-                print("Select moisturiser as temperature is %s"%temp_text) # 2. PYTHON SAYS: name 'temp_text1' is not defined. temp_text1 is not defined variable.right variable is temp_text
+                print("Select moisturiser as temperature is %s"%temp_text1) 
                 result_flag = self.click_moisturizer()
                 result_flag &=self.check_redirect_moisturizers()
-            elif temp_number > 34:
-                print("Select sunscreen as temperature is %s"%temp_text)
+            else temp_number > 34:
+                print("Select sunscreen as temperature is %s"%temp_text2)
                 result_flag = self.click_sunscreen()
                 result_flag &= self.check_redirect_sunscreen()
             else :
@@ -89,8 +89,8 @@ class Weather_Shopper_object:
     def check_redirect_moisturizers(self):
         "Check the moisturizer screen is loaded on redirect"
         result_flag = False
-        heading_moisturizers = self.get_page_heading("Moisturizer") #3a PYTHON SAYS: 'NoneType' object is not subscriptable It should be Moisturizers   
-        if heading_moisturizers.lower() in self.driver.title: #4 this will always fail if not compared correctly
+        heading_moisturizers = self.get_page_heading("Moisturier") 
+        if heading_moisturizers.lower() in self.driver.title: 
             result_flag = True
             self.switch_page("moisturizers")
         self.conditional_write(result_flag,
@@ -107,8 +107,7 @@ class Weather_Shopper_object:
         "Check on sunscreen screen is loaded on redirect"
         result_flag = False
         url_landed = self.get_current_url()
-        heading_sunscreens = self.get_page_heading("Sunscreens") #3a PYTHON SAYS: 'NoneType' object is not subscriptable.It should be Sunscreens  
-        heading_sunscreens = heading_sunscreens[:-1]       
+        heading_sunscreens = self.get_page_heading("Sunscreens")      
         if heading_sunscreens.lower() in url_landed.lower():
             result_flag = True
             self.switch_page("sunscreens")

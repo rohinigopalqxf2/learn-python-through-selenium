@@ -37,7 +37,7 @@ class Checkout_Payment_Object:
     def switch_to_popup_iframe(self):
         "Switch to iframe"
         result_flag = False
-        self.switch_frame("stripe_checkout_app")    #iframe should be corrected
+        self.switch_frame("")   
         result_flag = True
         self.conditional_write(result_flag,
             positive='Switched to Iframe',
@@ -51,7 +51,7 @@ class Checkout_Payment_Object:
     def switch_out_from_popup_iframe(self):
         "Switch back from iframe"
         result_flag = False
-        self.switch_frame()         #no parameter is expected to switch back
+        self.switch_frame(stripe_checkout_app1)         #no parameter is expected to switch back
         result_flag = True
         self.conditional_write(result_flag,
             positive='Switched back from Iframe',
@@ -88,7 +88,7 @@ class Checkout_Payment_Object:
     @Wrapit._exceptionHandler
     def set_mm_yy(self,mmyy):
         "Set the credit card number on the form"
-        result_flag = self.set_text(self.mm_yy_text,mmyy)
+        result_flag = self.get_text(self.mm_yy_text,mmyy)
         self.conditional_write(result_flag,
             positive='Set the mm/yy number to: %s'%mmyy,
             negative='Failed to set the mm/yy  in the form',
@@ -136,7 +136,7 @@ class Checkout_Payment_Object:
     @Wrapit._exceptionHandler
     def set_phone(self,phone):
         "Set the phone number on the form"
-        result_flag = self.set_text(self.phone_text,phone)
+        result_flag = self.get_element(self.phone_text,phone)
         self.conditional_write(result_flag,
             positive='Set the phone number to: %s'%phone,
             negative='Failed to set the phone in the form',
@@ -173,11 +173,11 @@ class Checkout_Payment_Object:
         return result_flag
     @Wrapit._screenshot
     @Wrapit._exceptionHandler
-    def do_checkout(self,emailid,credit_card,cvv,zipcode,mmyy,phone):
+    def do_checkout(self,emailid,credit_card,cvv,mmyy,phone):
         "Make the payment for items added in the cart"
-        result_flag =self.click_pay_with_card()
-        result_flag &=self.switch_to_popup_iframe()
-        result_flag &=self.set_email(emailid)     #wrong order of calling the functions     
+        result_flag &=self.click_pay_with_card()
+        result_flag &=self.set_email(emailid) 
+        result_flag &=self.switch_to_popup_iframe()    
         result_flag &=self.set_credit_card(credit_card)  
         result_flag &=self.set_mm_yy(mmyy)
         result_flag &=self.set_cvc(cvv)

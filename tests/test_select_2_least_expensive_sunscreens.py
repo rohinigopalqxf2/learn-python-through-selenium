@@ -27,7 +27,7 @@ def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os
         test_obj = PageFactory.get_page_object("Sunscreens",base_url=base_url)
 
         #2. Setup and register a driver and start the timer
-        start_time = int(time.time())
+        start_time = (time.time())
         test_obj.register_driver(remote_flag,os_name,os_version,browser,browser_version,remote_project_name,remote_build_name)
                
         #3. Select least expensive sunscreens, one each from SPF-50 and SPF-30
@@ -36,7 +36,7 @@ def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os
                             positive="Selected 2 least expensive sunscreens\n",
                             negative="Failed to select 2 least expensive sunscreens\nOn")
         
-        test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
+        test_obj.write('Script duration: %d seconds\n'%((time.time()-start_time)))
                 
         #4. Print out the results
         test_obj.write_test_summary()
