@@ -1,7 +1,6 @@
 """
-This class models the main Selenium tutorial page.
-URL: selenium-tutorial-main
-The page consists of a header, footer, form and table objects
+This class models the main page of Weather shopper application
+URL: its the main page so no URL mentioned
 """
 from .Base_Page import Base_Page
 from .weather_shopper_object  import Weather_Shopper_object

@@ -992,3 +992,110 @@ Total number of checks=1
 2019-10-29 19:50:08 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=7
 2019-10-29 19:50:09 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=7
 2019-10-29 19:50:09 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-31 16:13:14 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:13:14 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-31 16:13:14 | INFO | Base_Logging | inner | PYTHON SAYS: string indices must be integers
+2019-10-31 16:13:24 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-31 16:13:24 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-31 16:13:24 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-31 16:13:24 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:13:24 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-31 16:13:24 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-31 16:13:24 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:13:24 | INFO | Base_Logging | inner | Exception in method: add_all_moisturizers_verify_cart
+2019-10-31 16:13:24 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-31 16:13:24 | INFO | Base_Logging | log_result | FAIL: Failed to add all moisturizers to the cart
+On
+2019-10-31 16:13:24 | INFO | Base_Logging | test_add_all_moiturizers_to_cart | Script duration: 32 seconds
+
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | Total number of checks passed=0
+----------------------
+************************
+
+
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=0
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=0
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all moisturizers to the cart
+On
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | 1- Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | 2- Error when getting text from the path-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-31 16:13:24 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-31 16:14:31 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:14:31 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-31 16:14:31 | INFO | Base_Logging | inner | PYTHON SAYS: string indices must be integers
+2019-10-31 16:14:36 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[contains(text(),'item(s)')]
+
+2019-10-31 16:14:36 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-31 16:14:37 | INFO | Base_Logging | get_text | 'NoneType' object has no attribute 'text'
+2019-10-31 16:14:37 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:14:37 | INFO | Base_Logging | inner | Exception in method: check_added_count
+2019-10-31 16:14:37 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'decode'
+2019-10-31 16:14:37 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:14:37 | INFO | Base_Logging | inner | Exception in method: add_all_moisturizers_verify_cart
+2019-10-31 16:14:37 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-10-31 16:14:37 | INFO | Base_Logging | log_result | FAIL: Failed to add all moisturizers to the cart
+On
+2019-10-31 16:14:37 | INFO | Base_Logging | test_add_all_moiturizers_to_cart | Script duration: 57 seconds
+
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | Total number of checks passed=0
+----------------------
+************************
+
+
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=0
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=0
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | FAIL: Failed to add all moisturizers to the cart
+On
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | 1- Error when getting text from the path-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | 2- Check your locator-'xpath,//span[contains(text(),'item(s)')]' in the conf/locators.conf file
+2019-10-31 16:14:37 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-31 16:16:02 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 16:16:03 | INFO | Base_Logging | inner | Exception in method: click_all_add_button
+2019-10-31 16:16:03 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'add_sunscreen_button'
+2019-10-31 16:17:39 | DEBUG | Base_Logging | conditional_write | Clicked on add  button
+2019-10-31 16:17:45 | DEBUG | Base_Logging | conditional_write | Clicked on add  button
+2019-10-31 16:17:50 | DEBUG | Base_Logging | conditional_write | Clicked on add  button
+2019-10-31 16:17:59 | DEBUG | Base_Logging | conditional_write | Clicked on add  button
+2019-10-31 16:18:04 | DEBUG | Base_Logging | conditional_write | Clicked on add  button
+2019-10-31 16:18:10 | DEBUG | Base_Logging | conditional_write | Clicked on add  button
+2019-10-31 16:18:14 | DEBUG | Base_Logging | conditional_write | All items added to the cart
+2019-10-31 16:18:22 | INFO | Base_Logging | log_result | PASS: All moisturizers added successfully to the cart
+
+2019-10-31 16:18:22 | INFO | Base_Logging | test_add_all_moiturizers_to_cart | Script duration: 70 seconds
+
+2019-10-31 16:18:23 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-31 16:18:23 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-31 16:18:23 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=7
+2019-10-31 16:18:23 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=7
+2019-10-31 16:18:23 | INFO | Base_Logging | write_test_summary | ************************

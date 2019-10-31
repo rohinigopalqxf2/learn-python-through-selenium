@@ -13,7 +13,6 @@ import os,sys,time
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from page_objects.PageFactory import PageFactory
 from utils.Option_Parser import Option_Parser
-import conf.example_form_conf as conf
 import conf.testrail_caseid_conf as testrail_file
 
 def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os_version,os_name,remote_flag,testrail_flag,tesults_flag,test_run_id,remote_project_name,remote_build_name):
@@ -25,7 +24,7 @@ def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os
         actual_pass = -1
 
         #1. Create a test object and load the sunscreens page.
-        test_obj = PageFactory.get_page_object("Sunscreen",base_url=base_url)
+        test_obj = PageFactory.get_page_object("Sunscreens",base_url=base_url)
 
         #2. Setup and register a driver and start the timer
         start_time = int(time.time())

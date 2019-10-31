@@ -853,3 +853,187 @@ Total number of checks=3
 2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=19
 2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=19
 2019-10-29 20:27:13 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-31 11:54:42 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-31 11:54:47 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-31 11:54:50 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-31 11:54:50 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-31 11:54:53 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-31 11:54:53 | DEBUG | Base_Logging | conditional_write | One items added to the cart
+2019-10-31 11:54:59 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-31 11:55:01 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-31 11:55:01 | INFO | Base_Logging | log_result | PASS: All items added successfully to the cart
+
+2019-10-31 11:55:05 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-31 11:55:12 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-31 11:55:12 | DEBUG | Base_Logging | conditional_write | Set the email to: aq@bZ!\J:EVX@a.com
+2019-10-31 11:55:13 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-31 11:55:13 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-31 11:55:13 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-31 11:55:14 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-31 11:55:18 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-31 11:55:23 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]
+
+2019-10-31 11:55:23 | INFO | Base_Logging | get_element | Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-31 11:55:23 | DEBUG | Base_Logging | conditional_write | Failed to set the phone in the form
+2019-10-31 11:55:26 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-31 11:55:29 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-31 11:55:29 | DEBUG | Base_Logging | conditional_write | Could not land on confirmation screen
+2019-10-31 11:55:29 | INFO | Base_Logging | log_result | FAIL: Failed to checkout
+On
+2019-10-31 11:55:29 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 77 seconds
+
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=19
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=17
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | FAIL: Failed to checkout
+On
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | 1- Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-31 11:55:29 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-31 13:36:48 | DEBUG | Base_Logging | conditional_write | Clicked on Buy moisturizers
+2019-10-31 13:36:53 | DEBUG | Base_Logging | conditional_write | The heading of the page is Moisturizer
+2019-10-31 13:36:55 | DEBUG | Base_Logging | conditional_write | Landed on Moisturizer screen
+2019-10-31 13:36:55 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-31 13:36:59 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-31 13:36:59 | DEBUG | Base_Logging | conditional_write | One items added to the cart
+2019-10-31 13:37:04 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-31 13:37:06 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-31 13:37:06 | INFO | Base_Logging | log_result | PASS: All items added successfully to the cart
+
+2019-10-31 13:37:09 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-31 13:37:17 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-31 13:37:17 | DEBUG | Base_Logging | conditional_write | Set the email to: aqYkx>q&shtG@a.com
+2019-10-31 13:37:18 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-31 13:37:18 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-31 13:37:18 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-31 13:37:19 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-31 13:37:22 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-31 13:37:27 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]
+
+2019-10-31 13:37:27 | INFO | Base_Logging | get_element | Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-31 13:37:27 | DEBUG | Base_Logging | conditional_write | Failed to set the phone in the form
+2019-10-31 13:37:31 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-31 13:37:33 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-31 13:37:33 | DEBUG | Base_Logging | conditional_write | Could not land on confirmation screen
+2019-10-31 13:37:33 | INFO | Base_Logging | log_result | FAIL: Failed to checkout
+On
+2019-10-31 13:37:33 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 91 seconds
+
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=19
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=17
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | FAIL: Failed to checkout
+On
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-31 13:37:33 | INFO | Base_Logging | write_test_summary | 1- Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-31 13:37:34 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-31 15:46:05 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-31 15:46:11 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-31 15:46:13 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-31 15:46:18 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-31 15:47:32 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-31 15:47:38 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-31 15:47:40 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-31 15:47:44 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-31 15:47:59 | DEBUG | Base_Logging | conditional_write | Clicked on add sunscreen button
+2019-10-31 15:48:06 | DEBUG | Base_Logging | conditional_write | Clicked on add sunscreen button
+2019-10-31 15:48:18 | DEBUG | Base_Logging | conditional_write | Clicked on add sunscreen button
+2019-10-31 15:48:21 | DEBUG | Base_Logging | conditional_write | Clicked on add sunscreen button
+2019-10-31 15:48:24 | DEBUG | Base_Logging | conditional_write | Clicked on add sunscreen button
+2019-10-31 15:48:27 | DEBUG | Base_Logging | conditional_write | Clicked on add sunscreen button
+2019-10-31 15:48:28 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 15:48:28 | INFO | Base_Logging | inner | Exception in method: click_cart
+2019-10-31 15:48:28 | INFO | Base_Logging | inner | PYTHON SAYS: 'Sunscreen_Page' object has no attribute 'cart_button'
+2019-10-31 15:48:28 | INFO | Base_Logging | inner | You have this exception
+2019-10-31 15:48:28 | INFO | Base_Logging | inner | Exception in method: add_all_items_and_verify_cart
+2019-10-31 15:48:28 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'bool' and 'NoneType'
+2019-10-31 15:48:28 | INFO | Base_Logging | log_result | FAIL: Failed to add all items to the cart
+On
+2019-10-31 15:48:33 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //button[@type='submit']
+
+2019-10-31 15:48:33 | INFO | Base_Logging | get_element | Check your locator-'xpath,//button[@type='submit']' in the conf/locators.conf file
+2019-10-31 15:48:33 | DEBUG | Base_Logging | conditional_write | Could not click pay with card button
+2019-10-31 16:08:00 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-10-31 16:08:05 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-10-31 16:08:07 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-10-31 16:08:11 | INFO | Base_Logging | log_result | PASS: Successfully clicked on right button
+
+2019-10-31 16:08:28 | DEBUG | Base_Logging | conditional_write | Clicked on add button
+2019-10-31 16:08:39 | DEBUG | Base_Logging | conditional_write | One items added to the cart
+2019-10-31 16:08:46 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-31 16:08:52 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-31 16:08:57 | INFO | Base_Logging | log_result | PASS: All items added successfully to the cart
+
+2019-10-31 16:09:12 | DEBUG | Base_Logging | conditional_write | Clicked on pay with card
+2019-10-31 16:09:19 | DEBUG | Base_Logging | conditional_write | Switched to Iframe
+2019-10-31 16:09:19 | DEBUG | Base_Logging | conditional_write | Set the email to: aqtKkG';<\Dt@a.com
+2019-10-31 16:09:20 | DEBUG | Base_Logging | conditional_write | Set the credit card number to: 4242 4242 4242 4242
+2019-10-31 16:09:20 | DEBUG | Base_Logging | conditional_write | Set the mm/yy number to: 10/30
+2019-10-31 16:09:20 | DEBUG | Base_Logging | conditional_write | Set the cvc number to: 123
+2019-10-31 16:09:20 | DEBUG | Base_Logging | conditional_write | Set the zip code number to: 123456
+2019-10-31 16:09:23 | DEBUG | Base_Logging | conditional_write | Set the remember me checkbox
+2019-10-31 16:09:29 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]
+
+2019-10-31 16:09:29 | INFO | Base_Logging | get_element | Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-31 16:09:29 | DEBUG | Base_Logging | conditional_write | Failed to set the phone in the form
+2019-10-31 16:09:32 | DEBUG | Base_Logging | conditional_write | Clicked on pay button
+2019-10-31 16:09:34 | DEBUG | Base_Logging | conditional_write | Switched back from Iframe
+2019-10-31 16:09:34 | DEBUG | Base_Logging | conditional_write | Could not land on confirmation screen
+2019-10-31 16:09:59 | INFO | Base_Logging | log_result | FAIL: Failed to checkout
+On
+2019-10-31 16:09:59 | INFO | Base_Logging | test_add_all_items_to_cart_and_checkout | Script duration: 135 seconds
+
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=3
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=19
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=17
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | FAIL: Failed to checkout
+On
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | 
+--------USEFUL EXCEPTION--------
+
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | 1- Check your locator-'xpath,//*[contains(@class,'Fieldset-input Textbox-control')][1]/following::*[contains(@value,'+91')]' in the conf/locators.conf file
+2019-10-31 16:10:00 | INFO | Base_Logging | write_test_summary | ************************

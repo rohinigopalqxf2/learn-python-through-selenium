@@ -1,17 +1,15 @@
 """
-This class models the redirect page of the temperature page
-URL: moisturizer
-The page consists of product info, price and adding to cart
+This class models the sunscreens page
+URL: sunscreen
 """
 from .Base_Page import Base_Page
 import conf.weather_shopper_conf as locators
-from .sunscreens_object import Sunscreens_Object
 from .sunscreens_moisturizers_object import Sunscreens_Moisturizers_Object
 from .checkout_payment_object import Checkout_Payment_Object
 from utils.Wrapit import Wrapit
 
 
-class Sunscreen_Page(Base_Page,Sunscreens_Moisturizers_Object,Sunscreens_Object,Checkout_Payment_Object):
+class Sunscreen_Page(Base_Page,Sunscreens_Moisturizers_Object,Checkout_Payment_Object):
     "Page Object for the Sunscreen Page"
 
     #locators

@@ -4,9 +4,9 @@ SCOPE:
 1) Launch Browser
 2) Navigate to weather shopper page
 4) Read the temperature and redirect to moisturizer or sunscreen depending on the temperature.
-3) Select one item from the landed screen and add to cart
+3) Select one/more item from the landed screen and add to cart
 5) Verify the cart page is redirected to
-6) click payment and make payment , verify confirmation page is loaded
+6) click payment and make payment,verify confirmation page is loaded
 6) Close the browser
 
 """
@@ -38,7 +38,7 @@ def test_add_all_items_to_cart_and_checkout(base_url,browser,browser_version,os_
         #3.  get values from conf
         emailid = "aq"+randomStringwithDigitsAndSymbols()+ "@a.com"  #wrong function name called
         credit_card = conf.credit_card
-        cvv=conf.cvv1  
+        cvv=conf.cvv   #1. It should be cvv
         mmyy=conf.mmyy
         phone1=conf.phone 
         zip_code =conf.zip_code_text
@@ -56,7 +56,7 @@ def test_add_all_items_to_cart_and_checkout(base_url,browser,browser_version,os_
                             negative="Failed to add all items to the cart\nOn")
 
         #5.Checkout with payment
-        result_flag = test_obj.do_checkout(emailid,credit_card,cvv,zip_code,mmyy,phone)  #2. Variable name referenced is not correct
+        result_flag = test_obj.do_checkout(emailid,credit_card,cvv,zip_code,mmyy,phone1)  #2. Variable name referenced is not correct
         test_obj.log_result(result_flag,
                             positive="Successfully checkout is completed\n",
                             negative="Failed to checkout\nOn")

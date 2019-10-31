@@ -90,3 +90,24 @@ On
 2019-10-29 19:58:12 | INFO | Base_Logging | inner | You have this exception
 2019-10-29 19:58:13 | INFO | Base_Logging | inner | Exception in method: select_expensive_sunscreen
 2019-10-29 19:58:13 | INFO | Base_Logging | inner | PYTHON SAYS: name 'list_price_most_expensive_sunscreens' is not defined
+2019-10-31 16:22:09 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-31 16:22:13 | DEBUG | Base_Logging | conditional_write | Clicked on add of most expensive sunscreen
+2019-10-31 16:22:18 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-10-31 16:22:20 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-10-31 16:22:20 | INFO | Base_Logging | log_result | PASS: Selected the most expensive sunscreen
+
+2019-10-31 16:22:20 | INFO | Base_Logging | test_most_expensive_sunscreen | Script duration: 49 seconds
+
+2019-10-31 16:22:20 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-31 16:22:20 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-31 16:22:20 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=4
+2019-10-31 16:22:20 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=4
+2019-10-31 16:22:20 | INFO | Base_Logging | write_test_summary | ************************
