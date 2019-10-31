@@ -1,5 +1,5 @@
 """
-This class models the table on the Selenium tutorial page
+This class models the weather shopper's main page objects
 """
 from .Base_Page import Base_Page
 import conf.weather_shopper_conf as locators
@@ -136,4 +136,4 @@ class Weather_Shopper_object:
 
         return heading_text
 
-    
+

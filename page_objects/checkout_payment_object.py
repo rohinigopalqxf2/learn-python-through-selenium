@@ -1,5 +1,5 @@
 """
-This class models the table on the Selenium tutorial page
+This class models the payment page objects
 """
 from .Base_Page import Base_Page
 import conf.weather_shopper_conf as locators

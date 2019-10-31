@@ -4,9 +4,9 @@ SCOPE:
 1) Launch Browser
 2) Navigate to weather shopper page
 4) Read the temperature and redirect to moisturizer or sunscreen depending on the temperature.
-3) Select one item from the landed screen and add to cart
+3) Select one/more item from the landed screen and add to cart
 5) Verify the cart page is redirected to
-6) click payment and make payment , verify confirmation page is loaded
+6) click payment and make payment,verify confirmation page is loaded
 6) Close the browser
 
 """
