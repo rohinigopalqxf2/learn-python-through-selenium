@@ -9,7 +9,7 @@ import re
 
 class Sunscreens_Moisturizers_Object:
     "Page Object for the sunscreens. moisturizers , cart page"
-    
+
     #locators
     page_title = locators.page_title
     add_button = locators.add_moisturizer_sunscreen_button
