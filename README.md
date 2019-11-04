@@ -27,31 +27,9 @@ pytest -k add_all_moiturizers_to_cart
 
 pytest -k most_expensive_sunscreen
 
-pytest -k select_2_least_expensive_sunscreens
-
-The setup instructions are intentionally high-level since this repository is aimed at people with people who have already written Python before. If you are beginner, you will find our other repository a better place to start.
-
-Your assignment
-
-The weather shopper exercise has been partially completed using the code provided to you. Your assignment is to:
-fix the errors in the existing code
-
-How to proceed?
-
-Run the test using the command 
-
-pytest -k add_all_items_to_cart_and_checkout
-
-pytest -k add_all_moiturizers_to_cart
-
-pytest -k most_expensive_sunscreen
+pytest -k most_expensive_moisturizer
 
 pytest -k select_2_least_expensive_sunscreens
 
-Observe, debug and fix the error
+pytest -k select_2_least_expensive_moisturizers
 
-Test your fix
-
-Commit your change and push
-
-Repeat same steps to the next error till the tests run successfully
