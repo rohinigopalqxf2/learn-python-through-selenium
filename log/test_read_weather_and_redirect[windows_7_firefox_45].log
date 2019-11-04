@@ -452,3 +452,23 @@ Total number of checks=1
 2019-10-24 15:50:06 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=4
 2019-10-24 15:50:06 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=4
 2019-10-24 15:50:06 | INFO | Base_Logging | write_test_summary | ************************
+2019-11-04 15:38:36 | DEBUG | Base_Logging | conditional_write | Clicked on Buy sunscreen
+2019-11-04 15:38:41 | DEBUG | Base_Logging | conditional_write | The heading of the page is Sunscreens
+2019-11-04 15:38:43 | DEBUG | Base_Logging | conditional_write | Landed on Sunscreen screen
+2019-11-04 15:38:44 | INFO | Base_Logging | log_result | PASS: clicked on right button
+
+2019-11-04 15:38:44 | INFO | Base_Logging | test_read_weather_and_redirect | Script duration: 23 seconds
+
+2019-11-04 15:38:44 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-11-04 15:38:44 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-11-04 15:38:44 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=3
+2019-11-04 15:38:44 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=3
+2019-11-04 15:38:44 | INFO | Base_Logging | write_test_summary | ************************

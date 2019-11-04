@@ -87,3 +87,24 @@ Total number of checks=1
 2019-10-24 10:38:32 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=4
 2019-10-24 10:38:32 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=4
 2019-10-24 10:38:32 | INFO | Base_Logging | write_test_summary | ************************
+2019-11-04 15:37:53 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-11-04 15:37:56 | DEBUG | Base_Logging | conditional_write | Clicked on add of most expensive moisturizer
+2019-11-04 15:38:01 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-11-04 15:38:04 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-11-04 15:38:04 | INFO | Base_Logging | log_result | PASS: Selected the most expensive moisturizer
+
+2019-11-04 15:38:04 | INFO | Base_Logging | test_most_expensive_moisturizer | Script duration: 31 seconds
+
+2019-11-04 15:38:04 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-11-04 15:38:04 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-11-04 15:38:04 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=4
+2019-11-04 15:38:04 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=4
+2019-11-04 15:38:04 | INFO | Base_Logging | write_test_summary | ************************

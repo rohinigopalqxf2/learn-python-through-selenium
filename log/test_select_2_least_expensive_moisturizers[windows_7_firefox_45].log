@@ -131,3 +131,70 @@ Total number of checks=1
 2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=6
 2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=6
 2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | ************************
+2019-11-04 15:39:15 | INFO | Base_Logging | inner | You have this exception
+2019-11-04 15:39:15 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_almond
+2019-11-04 15:39:15 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'almond_price'
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | You have this exception
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_aloe
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'aloe_price'
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | You have this exception
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_almond
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not iterable
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | You have this exception
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | Exception in method: click_least_expensive_aloe
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object is not iterable
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | You have this exception
+2019-11-04 15:39:20 | INFO | Base_Logging | inner | Exception in method: select_2_least_expensive_moisturizers
+2019-11-04 15:39:21 | INFO | Base_Logging | inner | PYTHON SAYS: unsupported operand type(s) for &=: 'NoneType' and 'NoneType'
+2019-11-04 15:39:21 | INFO | Base_Logging | log_result | FAIL: Failed to select 2 least expensive mositurizers
+On
+2019-11-04 15:39:21 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 22 seconds
+
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | Total number of checks passed=0
+----------------------
+************************
+
+
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=0
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=0
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | 
+--------FAILURE SUMMARY--------
+
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | FAIL: Failed to select 2 least expensive mositurizers
+On
+2019-11-04 15:39:21 | INFO | Base_Logging | write_test_summary | ************************
+2019-11-04 15:41:09 | INFO | Base_Logging | inner | You have this exception
+2019-11-04 15:41:09 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_almond
+2019-11-04 15:41:10 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'almond_price'
+2019-11-04 15:42:50 | DEBUG | Base_Logging | conditional_write | Almonds are added to the array
+2019-11-04 15:42:50 | DEBUG | Base_Logging | conditional_write | Almonds are added to the array
+2019-11-04 15:42:50 | DEBUG | Base_Logging | conditional_write | Almonds are added to the array
+2019-11-04 15:42:55 | DEBUG | Base_Logging | conditional_write | Aloe are added to the array
+2019-11-04 15:42:55 | DEBUG | Base_Logging | conditional_write | Aloe are added to the array
+2019-11-04 15:42:55 | DEBUG | Base_Logging | conditional_write | Aloe are added to the array
+2019-11-04 15:42:58 | DEBUG | Base_Logging | conditional_write | Clicked on almonds add button
+2019-11-04 15:43:02 | DEBUG | Base_Logging | conditional_write | Clicked on aloe add button
+2019-11-04 15:43:08 | DEBUG | Base_Logging | conditional_write | Clicked on cart button
+2019-11-04 15:43:10 | DEBUG | Base_Logging | conditional_write | Landed on cart screen
+2019-11-04 15:43:10 | INFO | Base_Logging | log_result | PASS: Selected 2 least expensive moisturizers
+
+2019-11-04 15:43:10 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 37 seconds
+
+2019-11-04 15:43:10 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-11-04 15:43:10 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-11-04 15:43:10 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=10
+2019-11-04 15:43:10 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=10
+2019-11-04 15:43:10 | INFO | Base_Logging | write_test_summary | ************************

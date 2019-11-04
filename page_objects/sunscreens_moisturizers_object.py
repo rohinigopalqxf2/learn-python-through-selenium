@@ -20,6 +20,8 @@ class Sunscreens_Moisturizers_Object:
     spf30_price=locators.spf30_price
     spf50_price=locators.spf50_price
     add_item =locators.add_item
+    almond_price = locators.almond_price
+    aloe_price=locators.aloe_price
 
 
     @Wrapit._screenshot
