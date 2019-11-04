@@ -1,5 +1,5 @@
 """
-This class models the table on the Selenium tutorial page
+This class models the payment page objects
 """
 from .Base_Page import Base_Page
 import conf.weather_shopper_conf as locators
@@ -37,7 +37,7 @@ class Checkout_Payment_Object:
     def switch_to_popup_iframe(self):
         "Switch to iframe"
         result_flag = False
-        self.switch_frame("stripe_checkout_app")
+        self.switch_frame("stripe_checkout_app")    #iframe should be corrected
         result_flag = True
         self.conditional_write(result_flag,
             positive='Switched to Iframe',
@@ -51,7 +51,7 @@ class Checkout_Payment_Object:
     def switch_out_from_popup_iframe(self):
         "Switch back from iframe"
         result_flag = False
-        self.switch_frame()
+        self.switch_frame()         #no parameter is expected to switch back
         result_flag = True
         self.conditional_write(result_flag,
             positive='Switched back from Iframe',
@@ -124,7 +124,7 @@ class Checkout_Payment_Object:
     @Wrapit._exceptionHandler
     def check_checkbox_remember_me(self):
         "select the remember me checkbox on the form"
-        result_flag = self.select_checkbox(self.remember_me_checkbox)
+        result_flag = self.click_element(self.remember_me_checkbox)
         self.conditional_write(result_flag,
             positive='Set the remember me checkbox',
             negative='Failed to check remember me checkbox in the form',
@@ -176,8 +176,8 @@ class Checkout_Payment_Object:
     def do_checkout(self,emailid,credit_card,cvv,zipcode,mmyy,phone):
         "Make the payment for items added in the cart"
         result_flag =self.click_pay_with_card()
-        result_flag &=self.switch_to_popup_iframe()  
-        result_flag &=self.set_email(emailid)    
+        result_flag &=self.switch_to_popup_iframe()
+        result_flag &=self.set_email(emailid)     #wrong order of calling the functions     
         result_flag &=self.set_credit_card(credit_card)  
         result_flag &=self.set_mm_yy(mmyy)
         result_flag &=self.set_cvc(cvv)

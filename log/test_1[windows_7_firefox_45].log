@@ -1,0 +1,20 @@
+2019-10-16 18:01:24 | DEBUG | Base_Logging | get_element | Message: Unable to locate element: //span[@id ='temperature']
+
+2019-10-16 18:01:25 | INFO | Base_Logging | get_element | Check your locator-'xpath,//span[@id ='temperature']' in the conf/locators.conf file
+2019-10-16 18:04:42 | INFO | Base_Logging | inner | You have this exception
+2019-10-16 18:04:43 | INFO | Base_Logging | inner | Exception in method: get_temperature
+2019-10-16 18:04:44 | INFO | Base_Logging | inner | PYTHON SAYS: 'NoneType' object has no attribute 'text'
+2019-10-16 18:05:19 | INFO | Base_Logging | log_result | FAIL: Failed to get temperature
+On
+2019-10-16 18:05:19 | INFO | Base_Logging | test_1 | Script duration: 319 seconds
+
+2019-10-16 18:12:09 | INFO | Base_Logging | log_result | FAIL: Failed to get temperature
+On
+2019-10-16 18:12:09 | INFO | Base_Logging | test_1 | Script duration: 62 seconds
+
+2019-10-16 18:16:57 | DEBUG | Base_Logging | conditional_write | Could not get the temperature
+2019-10-17 09:36:47 | DEBUG | Base_Logging | conditional_write | Get the temperature
+2019-10-17 09:36:47 | INFO | Base_Logging | log_result | PASS: Temparature found
+
+2019-10-17 09:36:47 | INFO | Base_Logging | test_1 | Script duration: 28 seconds
+

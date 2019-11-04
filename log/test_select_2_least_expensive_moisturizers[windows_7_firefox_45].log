@@ -1,0 +1,133 @@
+2019-10-23 17:20:59 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:20:59 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:20:59 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all almonds
+
+2019-10-23 17:21:02 | DEBUG | Base_Logging | conditional_write | Clicked on add of least expensive moisturizer
+2019-10-23 17:21:02 | INFO | Base_Logging | log_result | PASS: Selected the least expensive almond
+
+2019-10-23 17:21:02 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 20 seconds
+
+2019-10-23 17:21:02 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=2
+2019-10-23 17:21:03 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-23 17:21:03 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=3
+2019-10-23 17:21:03 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=3
+2019-10-23 17:21:03 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:24:34 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:24:34 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:24:34 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:24:34 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:24:35 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all almonds
+
+2019-10-23 17:25:29 | DEBUG | Base_Logging | conditional_write | Clicked on add of least expensive moisturizer
+2019-10-23 17:25:32 | INFO | Base_Logging | log_result | PASS: Selected the least expensive almond
+
+2019-10-23 17:25:32 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 75 seconds
+
+2019-10-23 17:25:34 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=2
+2019-10-23 17:25:34 | INFO | Base_Logging | write_test_summary | Total number of checks passed=2
+----------------------
+************************
+
+
+2019-10-23 17:25:34 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=5
+2019-10-23 17:25:34 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=5
+2019-10-23 17:25:34 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:31:24 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:31:24 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:31:24 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:31:24 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all almonds
+
+2019-10-23 17:31:29 | INFO | Base_Logging | inner | You have this exception
+2019-10-23 17:31:29 | INFO | Base_Logging | inner | Exception in method: get_least_expensive_aloe
+2019-10-23 17:31:29 | INFO | Base_Logging | inner | PYTHON SAYS: 'Moisturizer_Page' object has no attribute 'aloe_price'
+2019-10-23 17:31:29 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all aloe
+
+2019-10-23 17:32:49 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:32:49 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:32:49 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:32:49 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all almonds
+
+2019-10-23 17:32:54 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:32:54 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:32:54 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:32:54 | INFO | Base_Logging | log_result | PASS: Collected the list of prices of all aloe
+
+2019-10-23 17:33:10 | INFO | Base_Logging | log_result | PASS: Selected the least expensive almond
+
+2019-10-23 17:33:10 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 40 seconds
+
+2019-10-23 17:33:52 | INFO | Base_Logging | log_result | PASS: Selected the least expensive aloe
+
+2019-10-23 17:33:52 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 82 seconds
+
+2019-10-23 17:33:52 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=4
+2019-10-23 17:33:52 | INFO | Base_Logging | write_test_summary | Total number of checks passed=4
+----------------------
+************************
+
+
+2019-10-23 17:33:52 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=6
+2019-10-23 17:33:52 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=6
+2019-10-23 17:33:52 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:38:33 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:38:33 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:38:33 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:38:33 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:38:38 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:38:38 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:38:51 | INFO | Base_Logging | log_result | PASS: Selected the least expensive aloe
+
+2019-10-23 17:38:51 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 50 seconds
+
+2019-10-23 17:38:51 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-23 17:38:51 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-23 17:38:51 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=6
+2019-10-23 17:38:51 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=6
+2019-10-23 17:38:51 | INFO | Base_Logging | write_test_summary | ************************
+2019-10-23 17:40:18 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:40:18 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:40:19 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:40:19 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:40:24 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:40:24 | DEBUG | Base_Logging | conditional_write | Most expensive item array is created
+2019-10-23 17:40:50 | INFO | Base_Logging | log_result | PASS: Selected 2  least expensive moisturizers
+
+2019-10-23 17:40:50 | INFO | Base_Logging | test_select_2_least_expensive_moisturizers | Script duration: 52 seconds
+
+2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | 
+
+************************
+--------RESULT--------
+Total number of checks=1
+2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | Total number of checks passed=1
+----------------------
+************************
+
+
+2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | Total number of mini-checks=6
+2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | Total number of mini-checks passed=6
+2019-10-23 17:40:50 | INFO | Base_Logging | write_test_summary | ************************

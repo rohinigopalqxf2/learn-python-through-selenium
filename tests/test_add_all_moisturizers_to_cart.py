@@ -12,7 +12,6 @@ import os,sys,time
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from page_objects.PageFactory import PageFactory
 from utils.Option_Parser import Option_Parser
-import conf.example_form_conf as conf
 import conf.testrail_caseid_conf as testrail_file
 
 def test_add_all_moiturizers_to_cart(base_url,browser,browser_version,os_version,os_name,remote_flag,testrail_flag,tesults_flag,test_run_id,remote_project_name,remote_build_name):
@@ -24,7 +23,7 @@ def test_add_all_moiturizers_to_cart(base_url,browser,browser_version,os_version
         actual_pass = -1
 
         #1. Create a test object
-        test_obj = PageFactory.get_page_object("Moisturizers",base_url=base_url)
+        test_obj = PageFactory.get_page_object("Moisturizers",base_url=base_url) #wrong page name
 
         #2. Setup and register a driver
         start_time = int(time.time())	#Set start_time with current time
@@ -35,6 +34,7 @@ def test_add_all_moiturizers_to_cart(base_url,browser,browser_version,os_version
         test_obj.log_result(result_flag,
                             positive="All moisturizers added successfully to the cart\n",
                             negative="Failed to add all moisturizers to the cart\nOn")
+
         test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
                 
         #4. Print out the results
