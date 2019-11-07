@@ -52,7 +52,7 @@ class Weather_Shopper_object:
         result_flag = self.click_element(self.click_buy_sunscreens)
         self.conditional_write(result_flag,
             positive='Clicked on Buy sunscreen',
-            negative='Could not click buy moisturizers button', ##wrong message
+            negative='Could not click buy moisturizers button',
             level='debug')    
 
         return result_flag
