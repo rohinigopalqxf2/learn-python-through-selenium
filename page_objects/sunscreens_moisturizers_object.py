@@ -65,7 +65,7 @@ class Sunscreens_Moisturizers_Object:
             positive='One items added to the cart',
             negative='No items are not added to the cart',
             level='debug')
-        elif(number_of_add_button == int(cart_cnt[0])): #typo error
+        elif(number_of_add_button == int(cart_cnt[0])):
             result_flag=True
             self.conditional_write(result_flag,
             positive='All items added to the cart',

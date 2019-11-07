@@ -11,8 +11,8 @@ class Weather_Shopper_object:
     
     #locators
     temperature_field = locators.temperature_field
-    click_buy_moisturizers = locators.click_moisturizers #xpath is wrong
-    click_buy_sunscreens = locators.click_sunscreens #xpath is wrong
+    click_buy_moisturizers = locators.click_moisturizers 
+    click_buy_sunscreens = locators.click_sunscreens 
     heading_text = locators.heading_text
     heading_sunscreen =locators.heading_sunscreen
     price_tag =locators.price_tag

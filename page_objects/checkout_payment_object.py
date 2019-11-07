@@ -51,7 +51,7 @@ class Checkout_Payment_Object:
     def switch_out_from_popup_iframe(self):
         "Switch back from iframe"
         result_flag = False
-        self.switch_frame(stripe_checkout_app1)         #no parameter is expected to switch back
+        self.switch_frame(stripe_checkout_app1)         
         result_flag = True
         self.conditional_write(result_flag,
             positive='Switched back from Iframe',

@@ -15,16 +15,16 @@
 
 page_title = "xpath,//h2"
 temperature_field = "xpath,//span[@id ='temperature']"
-click_moisturizers = "xpath,//button[text()='Buy moisturizers']" #text is wrong here
-click_sunscreens= "xpath,//button[text()='Buy sunscreens']" #double equal is wrong here
+click_moisturizers = "xpath,//button[text()='Buy moisturiers']" 
+click_sunscreens= "xpath,//button[text()=='Buy sunscreens']"
 heading_text = "xpath,//h2[contains(text(),'%s')]"
 heading_sunscreen = "xpath,//h2[contains(text(),'Sunscreens')]"
 heading_moisturizer = "xpath,//h2[contains(text(),'Moisturizers')]"
 
-add_moisturizer_sunscreen_button ="xpath,//button[@class='btn btn-primary']"  #add the locator
+add_moisturizer_sunscreen_button =""  
 cart_count ="xpath,//span[contains(text(),'item(s)')]"
 
-cart_button ="xpath,//button[@class='thin-text nav-link']" #xpath is wrong
+cart_button ="xpath,//button[@class='thin text-nav-ink']" 
 pay_with_card ="xpath,//button[@type='submit']"
 
 email_text = "xpath,//input[@type='email']"

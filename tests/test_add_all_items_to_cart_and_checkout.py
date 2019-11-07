@@ -36,7 +36,7 @@ def test_add_all_items_to_cart_and_checkout(base_url,browser,browser_version,os_
         test_obj.register_driver(remote_flag,os_name,os_version,browser,browser_version,remote_project_name,remote_build_name)
         
         #3.  get values from conf
-        emailid = "aq"+randomStringwithDigitsAndSymbols()+ "@a.com"  #wrong function name called
+        emailid = "aq"+randomStringwithDigitsAndSybols()+ "@a.com"  
         credit_card = conf.credit_card
         cvv=conf.cvv1   
         mmyy=conf.mmyy
@@ -44,7 +44,7 @@ def test_add_all_items_to_cart_and_checkout(base_url,browser,browser_version,os_
         zip_code =conf.zip_code_text
 
         #3. Check the temperature and based on the temperature click on buy button of moiturizer or sunscreen 
-        result_flag = test_obj.check_temp_and_click_product_category() #bugs seeded
+        result_flag = test_obj.check_temp_and_click_product_category()
         test_obj.log_result(result_flag,
                             positive="Successfully clicked on right button\n",
                             negative="Failed to click right button\nOn")
