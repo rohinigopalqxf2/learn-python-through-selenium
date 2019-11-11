@@ -56,30 +56,25 @@ class Weather_Shopper_object:
             level='debug')    
 
         return result_flag
-
     
     @Wrapit._screenshot
     @Wrapit._exceptionHandler
     def check_temp_and_click_product_category(self):
         "check the temperature, if its less than 19 then clcik moisturizer and if above 34 click sunscreen  "
         result_flag = False
-        temp_text = self.get_text(self.temperature_field)
-        temp_text = temp_text.decode('utf-8')
-        temp_text = str(temp_text)
-        temp_value = temp_text.split(None , 1)
-        temp_number= int(temp_value[0]) #1 Exception will be shown as it cannot encode char. Right solution will be to pick 0th index 
-        if temp_text !='':
-            if temp_number < 19:
-                print("Select moisturiser as temperature is %s"%temp_text) # 2. PYTHON SAYS: name 'temp_text1' is not defined. temp_text1 is not defined variable.right variable is temp_text
-                result_flag = self.click_moisturizer()
-                result_flag &=self.check_redirect_moisturizers()
-            elif temp_number > 34:
-                print("Select sunscreen as temperature is %s"%temp_text)
-                result_flag = self.click_sunscreen()
-                result_flag &= self.check_redirect_sunscreen()
-            else :
-                print("Stay on the homepage  as temperature is %s"%temp_text)
-                result_flag = True
+        temp_element = self.get_element(self.temperature_field).text
+        temp_element = temp_element[:-2]
+        if int(temp_element) <=19:
+            print("Select moisturiser as temperature is %s"%temp_element) 
+            result_flag = self.click_moisturizer()
+            result_flag &=self.check_redirect_moisturizers()
+        elif int(temp_element) >= 34:
+            print("Select sunscreen as temperature is %s"%temp_element)
+            result_flag = self.click_sunscreen()
+            result_flag &= self.check_redirect_sunscreen()
+        else :
+            print("Stay on the homepage  as temperature is %s"%temp_element)
+            result_flag = True
 
         return result_flag
 
