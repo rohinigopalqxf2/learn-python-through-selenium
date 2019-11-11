@@ -57,29 +57,24 @@ class Weather_Shopper_object:
 
         return result_flag
 
-    
     @Wrapit._screenshot
     @Wrapit._exceptionHandler
     def check_temp_and_click_product_category(self):
         "check the temperature, if its less than 19 then clcik moisturizer and if above 34 click sunscreen  "
         result_flag = False
-        temp_text = self.get_text(self.temperature_field)
-        temp_text = temp_text.decode('utf-8')
-        temp_text = str(temp_text)
-        temp_value = temp_text.split(None , 1)
-        temp_number= int(temp_value[1]) 
-        if temp_text !='':
-            if temp_number < 19:
-                print("Select moisturiser as temperature is %s"%temp_text1) 
-                result_flag = self.click_moisturizer()
-                result_flag &=self.check_redirect_moisturizers()
-            else temp_number > 34:
-                print("Select sunscreen as temperature is %s"%temp_text2)
-                result_flag = self.click_sunscreen()
-                result_flag &= self.check_redirect_sunscreen()
-            else :
-                print("Stay on the homepage  as temperature is %s"%temp_text)
-                result_flag = True
+        temp_element = self.get_element(self.temperature_field).text
+        temp_element = temp_element[:-2]
+        if int(temp_element) <=19:
+            print("Select moisturiser as temperature is %s"%temp_element) 
+            result_flag = self.click_moisturizer()
+            result_flag &=self.check_redirect_moisturizers()
+        elif int(temp_element) >= 34:
+            print("Select sunscreen as temperature is %s"%temp_element)
+            result_flag = self.click_sunscreen()
+            result_flag &= self.check_redirect_sunscreen()
+        else :
+            print("Stay on the homepage  as temperature is %s"%temp_element)
+            result_flag = True
 
         return result_flag
 
