@@ -2,20 +2,19 @@
 This is an example automated test to help you learn Qxf2's framework
 SCOPE:
 1) Launch Browser
-2) Navigate to weather shopper's sunscreens page
-3) Select the least expensive sunscreen that is SPF-50 and For your second sunscreen, 
-select the least expensive sunscreen that is SPF-30
+2) Navigate to weather shopper page  and sunscreens
+3) select the least expensive mositurizer that contains Aloe 
+For your second moisturizer, select the least expensive moisturizer that contains almond. 
 4) click on cart and verify if cart page is loaded
 5) Close the browser
 """
-
 import os,sys,time
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from page_objects.PageFactory import PageFactory
 from utils.Option_Parser import Option_Parser
 import conf.testrail_caseid_conf as testrail_file
 
-def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os_version,os_name,remote_flag,testrail_flag,tesults_flag,test_run_id,remote_project_name,remote_build_name):
+def test_select_two_least_expensive_moisturizers(base_url,browser,browser_version,os_version,os_name,remote_flag,testrail_flag,tesults_flag,test_run_id,remote_project_name,remote_build_name):
 
     "Run the test"
     try:
@@ -23,18 +22,18 @@ def test_select_2_least_expensive_sunscreens(base_url,browser,browser_version,os
         expected_pass = 0
         actual_pass = -1
 
-        #1. Create a test object and load the sunscreens page.
-        test_obj = PageFactory.get_page_object("Sunscreens",base_url=base_url)
+        #1. Create a test object and fill the example form.
+        test_obj = PageFactory.get_page_object("Moisturizers",base_url=base_url)
 
-        #2. Setup and register a driver and start the timer
+        #2. Setup and register a driver
         start_time = int(time.time())
         test_obj.register_driver(remote_flag,os_name,os_version,browser,browser_version,remote_project_name,remote_build_name)
                
-        #3. Select least expensive sunscreens, one each from SPF-50 and SPF-30
-        result_flag = test_obj.select_2_least_expensive_sunscreens() 
+        #3. Select least expensive moisturizers, one from each type as almond and aloe
+        result_flag = test_obj.select_2_least_expensive_moisturizers() 
         test_obj.log_result(result_flag,
-                            positive="Selected 2 least expensive sunscreens\n",
-                            negative="Failed to select 2 least expensive sunscreens\nOn")
+                            positive="Selected 2 least expensive moisturizers\n",
+                            negative="Failed to select 2 least expensive mositurizers\nOn")
         
         test_obj.write('Script duration: %d seconds\n'%(int(time.time()-start_time)))
                 
@@ -64,7 +63,7 @@ if __name__=='__main__':
     #Run the test only if the options provided are valid
     if options_obj.check_options(options): 
         #Run the test only if the options provided are valid
-        test_select_2_least_expensive_sunscreens(browser=options.browser,
+        test_select_two_least_expensive_moisturizers(browser=options.browser,
                     base_url=options.url,
                     test_run_id=options.test_run_id,
                     testrail_flag=options.testrail_flag,

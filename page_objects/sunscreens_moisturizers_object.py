@@ -20,7 +20,7 @@ class Sunscreens_Moisturizers_Object:
     spf30_price=locators.spf30_price
     spf50_price=locators.spf50_price
     add_item =locators.add_item
-    almond_price = locators.almond_price
+    almond_price=locators.almond_price
     aloe_price=locators.aloe_price
 
 
@@ -41,7 +41,7 @@ class Sunscreens_Moisturizers_Object:
     def click_all_add_button(self):
         "Click all add buttons"
         result_flag =False
-        number_of_items= self.get_elements(self.add_button)   #wrong function used, we need all elements
+        number_of_items= self.get_elements(self.add_button)   
         for element in number_of_items:
             result_flag = self.click_element(self.add_button)
             self.conditional_write(result_flag,
@@ -58,16 +58,16 @@ class Sunscreens_Moisturizers_Object:
         "Check the count of added items to the card with the number of add button. They should be same"
         result_flag =False
         number_of_items= self.get_elements(self.add_button)
-        number_of_add_button = len(number_of_items)  #length of the right side variable should be assigned here
+        number_of_add_button = len(number_of_items)  
         cart_cnt = self.get_text(self.cart_count)
         cart_cnt = cart_cnt.decode('utf-8')
-        if(int(cart_cnt[0])==1): #typo error
+        if(int(cart_cnt[0])==1): 
             result_flag=True
             self.conditional_write(result_flag,
             positive='One items added to the cart',
             negative='No items are not added to the cart',
             level='debug')
-        elif(number_of_add_button == int(cart_cnt[0])): #typo error
+        elif(number_of_add_button == int(cart_cnt[0])): 
             result_flag=True
             self.conditional_write(result_flag,
             positive='All items added to the cart',
@@ -93,7 +93,7 @@ class Sunscreens_Moisturizers_Object:
     def check_redirect_cart(self):
         "Check the cart screen is loaded on redirect"
         result_flag = False
-        cart_url = 'cart'  #url is singular word        
+        cart_url = 'cart'         
         if cart_url.lower() in self.get_current_url().lower():
             result_flag = True
             self.switch_page("cart")
@@ -133,10 +133,10 @@ class Sunscreens_Moisturizers_Object:
     @Wrapit._exceptionHandler
     def click_add_expensive_sunscreens(self,list_price_most_expensive_sunscreens):
         "Click on add for expensive item"
-        max_value = max(list_price_most_expensive_sunscreens) #wrong function used
+        max_value = max(list_price_most_expensive_sunscreens) 
         print(max_value)
         max_value_str = str(max_value)
-        result_flag = self.click_element(self.add_most_expensive%max_value_str)  #wrong variable
+        result_flag = self.click_element(self.add_most_expensive%max_value_str) 
         self.conditional_write(result_flag,
             positive='Clicked on add of most expensive sunscreen',
             negative='Could not click expensive sunscreen ',
@@ -172,7 +172,7 @@ class Sunscreens_Moisturizers_Object:
     def click_least_expensive_spf50(self,list_price_least_expensive_spf50):
         "Click on add for least expensive SPF-50 sunscreen"
         min_value = min(list_price_least_expensive_spf50)
-        min_value_str = min_value #conversion to str needed
+        min_value_str = int(min_value) 
         result_flag = self.click_element(self.add_item%min_value_str)
         self.conditional_write(result_flag,
                 positive='Clicked on SPF-50 sunscreen add button',
@@ -237,7 +237,7 @@ class Sunscreens_Moisturizers_Object:
     def select_expensive_sunscreen(self):
         "Add all items to the cart and verify if added successfully"
         list_price_most_expensive_sunscreens =self.get_most_expensive_sunscreens()
-        result_flag =self.click_add_expensive_sunscreens(list_price_most_expensive_sunscreens) #variable name is wrong
+        result_flag =self.click_add_expensive_sunscreens(list_price_most_expensive_sunscreens) 
         result_flag &=self.click_cart()
         result_flag &=self.check_redirect_cart()
         return result_flag
@@ -251,7 +251,7 @@ class Sunscreens_Moisturizers_Object:
         result_flag &=self.click_cart() 
         result_flag &=self.check_redirect_cart()
 
-        return result_flag        #wrong return variable
+        return result_flag        
 
     @Wrapit._screenshot
     @Wrapit._exceptionHandler

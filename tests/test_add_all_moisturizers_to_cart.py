@@ -23,7 +23,7 @@ def test_add_all_moiturizers_to_cart(base_url,browser,browser_version,os_version
         actual_pass = -1
 
         #1. Create a test object
-        test_obj = PageFactory.get_page_object("Moisturizers",base_url=base_url) #wrong page name
+        test_obj = PageFactory.get_page_object("Moisturizers",base_url=base_url) 
 
         #2. Setup and register a driver
         start_time = int(time.time())	#Set start_time with current time
